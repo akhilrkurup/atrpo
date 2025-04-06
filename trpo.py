@@ -8,14 +8,15 @@ from torch.distributions import Categorical
 from collections import namedtuple
 
 # Updated environment name
-env = gym.make('CartPole-v1',render_mode='human')
+env = gym.make('CartPole-v1',render_mode=None)
 
 state_size = env.observation_space.shape[0]
 num_actions = env.action_space.n
+print(state_size, num_actions)
 
 Rollout = namedtuple('Rollout', ['states', 'actions', 'rewards', 'next_states'])
 
-def train(epochs=100, num_rollouts=10, render_frequency=None):
+def train(epochs=100, num_rollouts=20, render_frequency=None):
     mean_total_rewards = []
     global_rollout = 0
 
@@ -94,19 +95,23 @@ max_d_kl = 0.01
 def update_agent(rollouts):
     states = torch.cat([r.states for r in rollouts], dim=0)
     actions = torch.cat([r.actions for r in rollouts], dim=0).flatten()
+    #print("states shape",states.shape,"action shape", actions.shape)
 
     advantages = [
         estimate_advantages(states, next_states[-1], rewards)
         for states, _, rewards, next_states in rollouts
     ]
     advantages = torch.cat(advantages, dim=0).flatten()
+    #print("adv shape",advantages.shape)
 
     advantages = (advantages - advantages.mean()) / (advantages.std() + 1e-8)  # Normalize advantages
 
     update_critic(advantages)
 
     distribution = actor(states)
+    #print("disttribution shape",distribution.shape)
     probabilities = distribution[range(distribution.shape[0]), actions]
+
 
     # Compute TRPO updates
     L = surrogate_loss(probabilities, probabilities.detach(), advantages)
@@ -202,5 +207,17 @@ def apply_update(grad_flattened):
         n += numel
 
 # Train agent
-train(epochs=50, num_rollouts=10)
+train(epochs=50, num_rollouts=20)
+env.close()
+
+env=gym.make('CartPole-v1', render_mode="human")
+state, _ = env.reset()
+cum_reward = 0
+done = False
+while not done:
+    action = get_action(state)
+    state, reward, terminated, truncated, _ = env.step(action)
+    cum_reward+=reward
+    done = terminated or truncated
+print("Total reward:", cum_reward)
 env.close()
