@@ -57,7 +57,7 @@ def train(epochs=100, num_rollouts=50):
 actor_hidden = 64
 actor = nn.Sequential(
     nn.Linear(state_size, actor_hidden),
-    nn.ReLU(),
+    nn.Tanh(),
     nn.Linear(actor_hidden, num_actions)
 )
 
@@ -174,7 +174,7 @@ def apply_update(grad_flattened):
         p.data += g
         n += numel
 
-train(epochs=200, num_rollouts=100)
+train(epochs=200, num_rollouts=50)
 env.close()
 
 env=gym.make('Walker2d-v5', render_mode="human")
