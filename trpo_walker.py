@@ -7,7 +7,7 @@ from torch.optim import Adam
 from torch.distributions import Normal
 from collections import namedtuple
 
-env = gym.make('Walker2d-v5', render_mode=None)  # Change to "human" for visualization
+env = gym.make('Humanoid-v5', render_mode=None)  # Change to "human" for visualization
 
 state_size = env.observation_space.shape[0]
 num_actions = env.action_space.shape[0]  # Continuous action space
@@ -183,7 +183,7 @@ def apply_update(grad_flattened):
 train(epochs=200, num_rollouts=50)
 env.close()
 
-env=gym.make('Walker2d-v5', render_mode="human")
+env=gym.make('Humanoid-v5', render_mode="human")
 state, _ = env.reset()
 cum_reward = 0
 done = False
