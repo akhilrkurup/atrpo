@@ -58,13 +58,17 @@ actor_hidden = 64
 actor = nn.Sequential(
     nn.Linear(state_size, actor_hidden),
     nn.Tanh(),
+    nn.Linear(actor_hidden, actor_hidden),
+    nn.Tanh(),
     nn.Linear(actor_hidden, num_actions)
 )
+log_std = nn.Parameter(torch.full((num_actions,), -0.5))
+actor_params=list(actor.parameters()) + [log_std]
 
 def get_action(state):
     state = torch.tensor(state, dtype=torch.float32).unsqueeze(0)
     mean = actor(state)
-    std = torch.ones_like(mean) * 0.2  # Fixed std, can be learned
+    std = log_std.exp().expand_as(mean)
     dist = Normal(mean, std)
     action = dist.sample()
     return action.squeeze(0).numpy()
@@ -72,10 +76,12 @@ def get_action(state):
 critic_hidden = 64
 critic = nn.Sequential(
     nn.Linear(state_size, critic_hidden),
-    nn.ReLU(),
+    nn.Tanh(),
+    nn.Linear(critic_hidden, critic_hidden),
+    nn.Tanh(),
     nn.Linear(critic_hidden, 1)
 )
-critic_optimizer = Adam(critic.parameters(), lr=0.005)
+critic_optimizer = Adam(critic.parameters(), lr=3e-4, weight_decay=3e-3)
 
 def update_critic(advantages):
     loss = 0.5 * (advantages ** 2).mean()
@@ -97,13 +103,13 @@ def update_agent(rollouts):
     
     update_critic(advantages)
     
-    dist = Normal(actor(states), 0.2)
+    dist = Normal(actor(states), torch.exp(log_std).expand_as(actor(states)))
     probabilities = dist.log_prob(actions).sum(dim=-1).exp()
     
     L = surrogate_loss(probabilities, probabilities.detach(), advantages)
     KL = kl_div(dist, dist)
     
-    parameters = list(actor.parameters())
+    parameters = actor_params
     g = flat_grad(L, parameters, retain_graph=True)
     d_kl = flat_grad(KL, parameters, create_graph=True)
     
@@ -116,7 +122,7 @@ def update_agent(rollouts):
     
     def criterion(step):
         apply_update(step)
-        dist_new = Normal(actor(states), 0.2)
+        dist_new = Normal(actor(states), torch.exp(log_std).expand_as(actor(states)))
         probabilities_new = dist_new.log_prob(actions).sum(dim=-1).exp()
         L_new = surrogate_loss(probabilities_new, probabilities, advantages)
         KL_new = kl_div(dist, dist_new)
@@ -168,7 +174,7 @@ def conjugate_gradient(A, b, delta=0., max_iterations=10):
 
 def apply_update(grad_flattened):
     n = 0
-    for p in actor.parameters():
+    for p in actor_params:
         numel = p.numel()
         g = grad_flattened[n:n + numel].view(p.shape)
         p.data += g
