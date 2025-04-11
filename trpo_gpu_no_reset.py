@@ -9,6 +9,7 @@ from collections import namedtuple
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+
 env = gym.make('HalfCheetah-v5', render_mode=None)  # Use render_mode="human" for rendering
 
 state_size = env.observation_space.shape[0]
@@ -143,10 +144,23 @@ def update_agent(rollouts):
     i = 0
     while not criterion((0.9 ** i) * max_step) and i < 10:
         i += 1
+def evaluate_policy(env, eval_runs=10):
+    total_rewards = []
+    for _ in range(eval_runs):
+        state, _ = env.reset()
+        done = False
+        cum_reward = 0
+        while not done:
+            action = get_action(state)
+            state, reward, terminated, truncated, _ = env.step(action)
+            cum_reward += reward
+            done = terminated or truncated
+        total_rewards.append(cum_reward)
+    return np.mean(total_rewards)
 
 def train(epochs=100, num_rollouts=5):
-    mean_total_rewards = []
-    global_rollout = 0
+    eval_rewards=[]
+    eval_interval=100000
     num_samples = 0
     for epoch in range(epochs):
         rollouts = []
@@ -157,24 +171,12 @@ def train(epochs=100, num_rollouts=5):
             done = False
             samples = []
 
-            while True:
+            while not done:
                 action = get_action(state)
                 next_state, reward, terminated, truncated, _ = env.step(action)
-                num_samples += 1
+                done = terminated or truncated
                 samples.append((state, action, reward, next_state))
-
-                if terminated:
-                    # Apply reset penalty and continue rollout
-                    reset_state, _ = env.reset()
-                    penalty = -100.0
-                    samples.append((next_state, np.zeros_like(action), penalty, reset_state))
-                    num_samples += 1
-                    state = reset_state
-                    continue
-
-                elif truncated:
-                    break  # End of rollout due to time limit
-
+                num_samples += 1
                 state = next_state
 
 
@@ -186,37 +188,28 @@ def train(epochs=100, num_rollouts=5):
 
             rollouts.append(Rollout(states, actions, rewards, next_states))
             rollout_total_rewards.append(rewards.sum().item())
-            global_rollout += 1
 
         update_agent(rollouts)
+
+        if num_samples // eval_interval > len(eval_rewards):
+            avg_eval_reward = evaluate_policy(gym.make('HalfCheetah-v5'))  # Use new env to avoid interference
+            eval_rewards.append(avg_eval_reward)
+            print(f"Eval at {num_samples} samples: {avg_eval_reward:.2f}")
+
         mean_reward = np.mean(rollout_total_rewards)
         print(f'Epoch {epoch}, Mean Reward: {mean_reward:.2f}')
-        mean_total_rewards.append(mean_reward)
+       
 
     print("Total samples collected:", num_samples)
-    plt.plot(np.linspace(0, num_samples, epochs), mean_total_rewards)
+    plt.plot(np.arange(1, len(eval_rewards)+1) * eval_interval, eval_rewards)
     plt.xlabel("Samples")
-    plt.ylabel("Mean Total Reward")
-    plt.title("Training Curve")
+    plt.ylabel("Evaluation Reward")
+    plt.title("Policy Evaluation over Time")
     plt.grid()
     plt.show()
 
 # Train the agent
-train(epochs=10)
+train(epochs=25)
 
 env.close()
 
-"""# Evaluation
-env = gym.make('HalfCheetah-v5', render_mode="human")
-state, _ = env.reset()
-cum_reward = 0
-done = False
-while not done:
-    action = get_action(state)
-    state, reward, terminated, truncated, _ = env.step(action)
-    cum_reward += reward
-    done = terminated or truncated
-print("Total reward:", cum_reward)
-env.close()"""
-
-print("Final log_std:", log_std)
