@@ -6,6 +6,10 @@ import matplotlib.pyplot as plt
 from torch.optim import Adam
 from torch.distributions import Normal
 from collections import namedtuple
+import time
+
+start = time.time()
+
 
 env = gym.make('HalfCheetah-v5', render_mode=None)  # Change to "human" for visualization
 
@@ -185,9 +189,10 @@ def apply_update(grad_flattened):
         p.data += g
         n += numel
 
-train(epochs=1000, num_rollouts=10)
+train(epochs=100, num_rollouts=10)
 env.close()
-
+end = time.time()
+print(f"Elapsed time: {end - start:.3f} seconds")
 env=gym.make('HalfCheetah-v5', render_mode="human")
 state, _ = env.reset()
 cum_reward = 0
@@ -200,4 +205,7 @@ while not done:
 print("Total reward:", cum_reward)
 env.close()
 
-print(log_std)
+import time
+
+start = time.time()
+# your code here

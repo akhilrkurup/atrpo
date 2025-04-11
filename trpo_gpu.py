@@ -193,7 +193,7 @@ train(epochs=1000, num_rollouts=10)
 
 env.close()
 
-# Evaluation
+"""# Evaluation
 env = gym.make('HalfCheetah-v5', render_mode="human")
 state, _ = env.reset()
 cum_reward = 0
@@ -204,6 +204,6 @@ while not done:
     cum_reward += reward
     done = terminated or truncated
 print("Total reward:", cum_reward)
-env.close()
+env.close()"""
 
 print("Final log_std:", log_std)
