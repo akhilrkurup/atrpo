@@ -144,7 +144,7 @@ def update_agent(rollouts):
     while not criterion((0.9 ** i) * max_step) and i < 10:
         i += 1
 
-def train(epochs=100, num_rollouts=50):
+def train(epochs=100, num_rollouts=5):
     mean_total_rewards = []
     global_rollout = 0
     num_samples = 0
@@ -157,13 +157,26 @@ def train(epochs=100, num_rollouts=50):
             done = False
             samples = []
 
-            while not done:
+            while True:
                 action = get_action(state)
                 next_state, reward, terminated, truncated, _ = env.step(action)
-                done = terminated or truncated
-                samples.append((state, action, reward, next_state))
                 num_samples += 1
+                samples.append((state, action, reward, next_state))
+
+                if terminated:
+                    # Apply reset penalty and continue rollout
+                    reset_state, _ = env.reset()
+                    penalty = -100.0
+                    samples.append((next_state, np.zeros_like(action), penalty, reset_state))
+                    num_samples += 1
+                    state = reset_state
+                    continue
+
+                elif truncated:
+                    break  # End of rollout due to time limit
+
                 state = next_state
+
 
             states, actions, rewards, next_states = zip(*samples)
             states = torch.stack([torch.tensor(s, dtype=torch.float32, device=device) for s in states])
@@ -189,7 +202,7 @@ def train(epochs=100, num_rollouts=50):
     plt.show()
 
 # Train the agent
-train(epochs=1000, num_rollouts=10)
+train(epochs=10)
 
 env.close()
 
