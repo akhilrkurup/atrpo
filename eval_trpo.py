@@ -169,12 +169,14 @@ def evaluate_policy(env, eval_runs=10):
     return np.mean(total_rewards)
 
 def train(epochs=100, num_rollouts=5):
-    eval_rewards=[]
-    eval_interval=100000
-    num_samples = 0
+    eval_rewards = []
+    eval_interval = 100000
+    total_samples = 0  # total samples across all epochs
+
     for epoch in range(epochs):
         rollouts = []
         rollout_total_rewards = []
+        epoch_samples = 0  # samples within current epoch
 
         for _ in range(num_rollouts):
             state, _ = env.reset()
@@ -186,10 +188,9 @@ def train(epochs=100, num_rollouts=5):
                 next_state, reward, terminated, truncated, _ = env.step(action)
                 done = terminated or truncated
                 samples.append((state, action, reward, next_state))
-                num_samples += 1
                 state = next_state
 
-
+            # convert samples to tensors
             states, actions, rewards, next_states = zip(*samples)
             states = torch.stack([torch.tensor(s, dtype=torch.float32, device=device) for s in states])
             next_states = torch.stack([torch.tensor(s, dtype=torch.float32, device=device) for s in next_states])
@@ -199,18 +200,27 @@ def train(epochs=100, num_rollouts=5):
             rollouts.append(Rollout(states, actions, rewards, next_states))
             rollout_total_rewards.append(rewards.sum().item())
 
+            num_samples = len(samples)
+            total_samples += num_samples
+            epoch_samples += num_samples
+
+            if epoch_samples >= 5000:
+                print(f"Epoch {epoch}: Reached 5000 samples, ending early with {epoch_samples} samples.")
+                break  # early end of epoch
+
         update_agent(rollouts)
 
-        if num_samples // eval_interval > len(eval_rewards):
-            avg_eval_reward = evaluate_policy(gym.make('HalfCheetah-v5'))  # Use new env to avoid interference
+        if total_samples // eval_interval > len(eval_rewards):
+            avg_eval_reward = evaluate_policy(gym.make(env_name))  # Use a fresh env
             eval_rewards.append(avg_eval_reward)
-            print(f"Eval at {num_samples} samples: {avg_eval_reward:.2f}")
+            print(f"Eval at {total_samples} samples: {avg_eval_reward:.2f}")
 
         mean_reward = np.mean(rollout_total_rewards)
         print(f'Epoch {epoch}, Mean Reward: {mean_reward:.2f}')
+
        
 
-    print("Total samples collected:", num_samples)
+    print("Total samples collected:", total_samples)
     plt.plot(np.arange(1, len(eval_rewards)+1) * eval_interval, eval_rewards)
     plt.xlabel("Samples")
     plt.ylabel("Evaluation Reward")
