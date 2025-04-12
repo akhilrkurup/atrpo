@@ -109,19 +109,11 @@ def update_agent(rollouts):
     actions = torch.cat([r.actions for r in rollouts], dim=0).to(device)
 
     advantages,critic_loss = estimate_advantages(states, next_states, rewards)
-    advantages.flatten()
+    advantages=advantages.flatten()
     advantages = (advantages - advantages.mean()) / (advantages.std() + 1e-8)
     
     update_critic(critic_loss)
-    print("critic shape",critic(states).shape)
-
-    print("advanatge shape", advantages.shape)
-    print("actions shape", actions.shape)
-    print("states shape", states.shape)
-    print("next states shape", next_states.shape)
-    print("rewards shape", rewards.shape)
-    print("critic loss shape", critic_loss.shape)
-
+ 
     dist = Normal(actor(states), log_std.exp().expand_as(actor(states)))
     probabilities = dist.log_prob(actions).sum(dim=-1)
 
