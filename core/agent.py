@@ -34,7 +34,7 @@ def collect_samples(pid, queue, env, policy, custom_reward,
     min_c_reward = 1e6
     max_c_reward = -1e6
     num_episodes = 0
-
+    RESET_COST = 100 
     while num_steps < min_batch_size:
         state,_ = env.reset()
         if running_state is not None:
@@ -50,7 +50,14 @@ def collect_samples(pid, queue, env, policy, custom_reward,
                     action = policy.select_action(state_var)[0].numpy()
             action = int(action) if policy.is_disc_action else action.astype(np.float64)
             next_state, reward, terminated, truncated, _ = env.step(action)
-            done = terminated or truncated
+            if(terminated):
+                print(t)
+            if terminated:
+                # Infinite horizon trick: add reset cost and restart
+                reward -= RESET_COST
+                next_state, _ = env.reset()
+            
+            #done = terminated or truncated
             reward_episode += reward
             if running_state is not None:
                 next_state = running_state(next_state)
@@ -61,13 +68,13 @@ def collect_samples(pid, queue, env, policy, custom_reward,
                 min_c_reward = min(min_c_reward, reward)
                 max_c_reward = max(max_c_reward, reward)
 
-            mask = 0 if done else 1
+            mask = 0 if truncated else 1
 
             memory.push(state, action, mask, next_state, reward)
 
             if render:
                 env.render()
-            if done:
+            if truncated:
                 break
 
             state = next_state
