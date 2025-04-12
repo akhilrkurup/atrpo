@@ -10,7 +10,7 @@ from collections import namedtuple
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
-env = gym.make('HalfCheetah-v5', render_mode=None)  # Use render_mode="human" for rendering
+env = gym.make('Humanoid-v5', render_mode=None)  # Use render_mode="human" for rendering
 
 state_size = env.observation_space.shape[0]
 num_actions = env.action_space.shape[0]  # Continuous action space
@@ -111,6 +111,7 @@ def update_agent(rollouts):
     advantages,critic_loss = estimate_advantages(states, next_states, rewards)
     advantages=advantages.flatten()
     advantages = (advantages - advantages.mean()) / (advantages.std() + 1e-8)
+    print(advantages.shape)
     
     update_critic(critic_loss)
  
@@ -158,7 +159,7 @@ def evaluate_policy(env, eval_runs=10):
         total_rewards.append(cum_reward)
     return np.mean(total_rewards)
 
-def train(epochs=100, num_rollouts=5):
+def train(epochs=100, num_rollouts=1):
     eval_rewards=[]
     eval_interval=100000
     num_samples = 0
@@ -171,13 +172,26 @@ def train(epochs=100, num_rollouts=5):
             done = False
             samples = []
 
-            while not done:
+            while True:
                 action = get_action(state)
                 next_state, reward, terminated, truncated, _ = env.step(action)
-                done = terminated or truncated
-                samples.append((state, action, reward, next_state))
                 num_samples += 1
+                samples.append((state, action, reward, next_state))
+                if terminated:
+                    # Apply reset penalty and continue rollout
+                    reset_state, _ = env.reset()
+                    penalty = -100.0
+                    samples.append((next_state, np.zeros_like(action), penalty, reset_state))
+                    num_samples += 1
+                    state = reset_state
+                    continue
+                elif len(samples)>5000:
+                    break
+                elif truncated: 
+                    break  # End of rollout due to time limit
+
                 state = next_state
+
 
 
             states, actions, rewards, next_states = zip(*samples)
@@ -192,7 +206,7 @@ def train(epochs=100, num_rollouts=5):
         update_agent(rollouts)
 
         if num_samples // eval_interval > len(eval_rewards):
-            avg_eval_reward = evaluate_policy(gym.make('HalfCheetah-v5'))  # Use new env to avoid interference
+            avg_eval_reward = evaluate_policy(gym.make('Humanoid-v5'))  # Use new env to avoid interference
             eval_rewards.append(avg_eval_reward)
             print(f"Eval at {num_samples} samples: {avg_eval_reward:.2f}")
 
@@ -209,7 +223,7 @@ def train(epochs=100, num_rollouts=5):
     plt.show()
 
 # Train the agent
-train(epochs=2)
+train(epochs=25)
 
 env.close()
 
