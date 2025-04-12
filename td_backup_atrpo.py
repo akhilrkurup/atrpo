@@ -208,7 +208,7 @@ def train(epochs=100, num_rollouts=5):
     plt.show()
 
 # Train the agent
-train(epochs=25)
+train(epochs=2)
 
 env.close()
 
