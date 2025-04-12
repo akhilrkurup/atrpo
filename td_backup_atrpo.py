@@ -70,20 +70,28 @@ def flat_grad(y, x, retain_graph=True, create_graph=False):
     g = torch.autograd.grad(y, x, retain_graph=retain_graph, create_graph=create_graph)
     return torch.cat([t.view(-1) for t in g])
 
-def conjugate_gradient(A, b, delta=0., max_iterations=10):
+def conjugate_gradient(Avp_fn, b, delta=1e-10, max_iterations=10):
     x = torch.zeros_like(b)
     r = b.clone()
-    p = b.clone()
-    for i in range(max_iterations):
-        AVP = A(p)
-        alpha = (r @ r) / (p @ AVP)
+    p = r.clone()
+    r_dot_old = r @ r
+
+    for _ in range(max_iterations):
+        Avp = Avp_fn(p)  # This uses autograd to compute A·p
+        alpha = r_dot_old / (p @ Avp)
         x_new = x + alpha * p
-        if (x - x_new).norm() <= delta:
-            return x_new
-        r = r - alpha * AVP
-        beta = (r @ r) / (r @ r).clone()
+
+        if (x_new - x).norm() <= delta:
+            break
+
+        r = r - alpha * Avp
+        r_dot_new = r @ r
+        beta = r_dot_new / r_dot_old
+
         p = r + beta * p
+        r_dot_old = r_dot_new
         x = x_new
+
     return x
 
 def apply_update(grad_flattened):
