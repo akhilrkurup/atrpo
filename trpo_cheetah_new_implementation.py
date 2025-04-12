@@ -16,7 +16,7 @@ from core.agent import Agent
 
 
 parser = argparse.ArgumentParser(description='PyTorch TRPO example')
-parser.add_argument('--env-name', default="HalfCheetah-v5", metavar='G',
+parser.add_argument('--env-name', default="Humanoid-v5", metavar='G',
                     help='name of the environment to run')
 parser.add_argument('--model-path', metavar='G',
                     help='path of pre-trained model')

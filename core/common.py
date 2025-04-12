@@ -13,12 +13,12 @@ def estimate_advantages(rewards, masks, values, gamma, tau, device):
     tensor_type = type(rewards)
     deltas = tensor_type(rewards.size(0), 1)
     advantages = tensor_type(rewards.size(0), 1)
-
+    rho=torch.mean(rewards)
     prev_value = 0
     prev_advantage = 0
     for i in reversed(range(rewards.size(0))):
-        deltas[i] = rewards[i] + gamma * prev_value * masks[i] - values[i]
-        advantages[i] = deltas[i] + gamma * tau * prev_advantage * masks[i]
+        deltas[i] = rewards[i] -rho + prev_value * masks[i] - values[i]
+        advantages[i] = deltas[i] +  tau * prev_advantage * masks[i]
 
         prev_value = values[i, 0]
         prev_advantage = advantages[i, 0]
