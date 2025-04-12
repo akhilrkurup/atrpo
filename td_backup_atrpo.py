@@ -51,13 +51,11 @@ def get_action(state):
     action = dist.sample()
     return action.squeeze(0).cpu().numpy()  # return to CPU for env.step()
 
-def estimate_advantages(states, last_state, rewards):
-    values = critic(states)
-    last_value = critic(last_state.unsqueeze(0).to(device))
-    next_values = torch.zeros_like(rewards)
-    for i in reversed(range(rewards.shape[0])):
-        last_value = next_values[i] = rewards[i] + 0.99 * last_value
-    return next_values - values
+def estimate_advantages(states, next_states, rewards):
+    rho=torch.mean(rewards)
+    V_target=rewards-rho+critic(next_states)
+    A_st_at=V_target-critic(states)
+    return A_st_at, torch.mean((critic(states)-V_target)**2)
 
 def surrogate_loss(new_log_probs, old_log_probs, advantages):
     ratios = (new_log_probs - old_log_probs).exp()
@@ -96,23 +94,24 @@ def apply_update(grad_flattened):
         p.data += g
         n += numel
 
-def update_critic(advantages):
-    loss = 0.5 * (advantages ** 2).mean()
+def update_critic(critic_loss):
     critic_optimizer.zero_grad()
-    loss.backward()
+    critic_loss.backward()
     critic_optimizer.step()
 
 max_d_kl = 0.01
 
 def update_agent(rollouts):
+ 
     states = torch.cat([r.states for r in rollouts], dim=0).to(device)
+    next_states = torch.cat([r.next_states for r in rollouts], dim=0).to(device)
+    rewards = torch.cat([r.rewards for r in rollouts], dim=0).to(device)
     actions = torch.cat([r.actions for r in rollouts], dim=0).to(device)
-    
-    advantages = [estimate_advantages(r.states.to(device), r.next_states[-1].to(device), r.rewards.to(device)) for r in rollouts]
-    advantages = torch.cat(advantages, dim=0).flatten()
+
+    advantages,critic_loss = estimate_advantages(states, next_states, rewards)
     advantages = (advantages - advantages.mean()) / (advantages.std() + 1e-8)
     
-    update_critic(advantages)
+    update_critic(critic_loss)
 
     dist = Normal(actor(states), log_std.exp().expand_as(actor(states)))
     probabilities = dist.log_prob(actions).sum(dim=-1)
