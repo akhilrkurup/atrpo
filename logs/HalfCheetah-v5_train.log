@@ -1,0 +1,2051 @@
+Epoch 0: Reached 5000 samples, ending early with 5000 samples.
+Epoch 0, Mean Reward: -390.49
+Epoch 1: Reached 5000 samples, ending early with 5000 samples.
+Epoch 1, Mean Reward: -327.07
+Epoch 2: Reached 5000 samples, ending early with 5000 samples.
+Epoch 2, Mean Reward: -314.01
+Epoch 3: Reached 5000 samples, ending early with 5000 samples.
+Epoch 3, Mean Reward: -346.69
+Epoch 4: Reached 5000 samples, ending early with 5000 samples.
+Epoch 4, Mean Reward: -300.24
+Epoch 5: Reached 5000 samples, ending early with 5000 samples.
+Epoch 5, Mean Reward: -204.48
+Epoch 6: Reached 5000 samples, ending early with 5000 samples.
+Epoch 6, Mean Reward: -334.42
+Epoch 7: Reached 5000 samples, ending early with 5000 samples.
+Epoch 7, Mean Reward: -326.65
+Epoch 8: Reached 5000 samples, ending early with 5000 samples.
+Epoch 8, Mean Reward: -277.78
+Epoch 9: Reached 5000 samples, ending early with 5000 samples.
+Epoch 9, Mean Reward: -300.64
+Epoch 10: Reached 5000 samples, ending early with 5000 samples.
+Epoch 10, Mean Reward: -256.26
+Epoch 11: Reached 5000 samples, ending early with 5000 samples.
+Epoch 11, Mean Reward: -251.13
+Epoch 12: Reached 5000 samples, ending early with 5000 samples.
+Epoch 12, Mean Reward: -204.57
+Epoch 13: Reached 5000 samples, ending early with 5000 samples.
+Epoch 13, Mean Reward: -235.47
+Epoch 14: Reached 5000 samples, ending early with 5000 samples.
+Epoch 14, Mean Reward: -166.88
+Epoch 15: Reached 5000 samples, ending early with 5000 samples.
+Epoch 15, Mean Reward: -205.94
+Epoch 16: Reached 5000 samples, ending early with 5000 samples.
+Epoch 16, Mean Reward: -150.14
+Epoch 17: Reached 5000 samples, ending early with 5000 samples.
+Epoch 17, Mean Reward: -115.58
+Epoch 18: Reached 5000 samples, ending early with 5000 samples.
+Epoch 18, Mean Reward: -100.56
+Epoch 19: Reached 5000 samples, ending early with 5000 samples.
+Eval at 100000 samples: -112.41
+Epoch 19, Mean Reward: -111.40
+Epoch 20: Reached 5000 samples, ending early with 5000 samples.
+Epoch 20, Mean Reward: -119.94
+Epoch 21: Reached 5000 samples, ending early with 5000 samples.
+Epoch 21, Mean Reward: -122.61
+Epoch 22: Reached 5000 samples, ending early with 5000 samples.
+Epoch 22, Mean Reward: -91.35
+Epoch 23: Reached 5000 samples, ending early with 5000 samples.
+Epoch 23, Mean Reward: -108.12
+Epoch 24: Reached 5000 samples, ending early with 5000 samples.
+Epoch 24, Mean Reward: -107.27
+Epoch 25: Reached 5000 samples, ending early with 5000 samples.
+Epoch 25, Mean Reward: -87.52
+Epoch 26: Reached 5000 samples, ending early with 5000 samples.
+Epoch 26, Mean Reward: -93.64
+Epoch 27: Reached 5000 samples, ending early with 5000 samples.
+Epoch 27, Mean Reward: -83.93
+Epoch 28: Reached 5000 samples, ending early with 5000 samples.
+Epoch 28, Mean Reward: -65.60
+Epoch 29: Reached 5000 samples, ending early with 5000 samples.
+Epoch 29, Mean Reward: -103.26
+Epoch 30: Reached 5000 samples, ending early with 5000 samples.
+Epoch 30, Mean Reward: -36.35
+Epoch 31: Reached 5000 samples, ending early with 5000 samples.
+Epoch 31, Mean Reward: -20.60
+Epoch 32: Reached 5000 samples, ending early with 5000 samples.
+Epoch 32, Mean Reward: -13.89
+Epoch 33: Reached 5000 samples, ending early with 5000 samples.
+Epoch 33, Mean Reward: -0.29
+Epoch 34: Reached 5000 samples, ending early with 5000 samples.
+Epoch 34, Mean Reward: 19.27
+Epoch 35: Reached 5000 samples, ending early with 5000 samples.
+Epoch 35, Mean Reward: -23.41
+Epoch 36: Reached 5000 samples, ending early with 5000 samples.
+Epoch 36, Mean Reward: -14.71
+Epoch 37: Reached 5000 samples, ending early with 5000 samples.
+Epoch 37, Mean Reward: -80.79
+Epoch 38: Reached 5000 samples, ending early with 5000 samples.
+Epoch 38, Mean Reward: -44.94
+Epoch 39: Reached 5000 samples, ending early with 5000 samples.
+Eval at 200000 samples: -15.71
+Epoch 39, Mean Reward: -22.76
+Epoch 40: Reached 5000 samples, ending early with 5000 samples.
+Epoch 40, Mean Reward: 13.71
+Epoch 41: Reached 5000 samples, ending early with 5000 samples.
+Epoch 41, Mean Reward: -13.17
+Epoch 42: Reached 5000 samples, ending early with 5000 samples.
+Epoch 42, Mean Reward: -43.90
+Epoch 43: Reached 5000 samples, ending early with 5000 samples.
+Epoch 43, Mean Reward: -28.19
+Epoch 44: Reached 5000 samples, ending early with 5000 samples.
+Epoch 44, Mean Reward: -15.91
+Epoch 45: Reached 5000 samples, ending early with 5000 samples.
+Epoch 45, Mean Reward: -28.60
+Epoch 46: Reached 5000 samples, ending early with 5000 samples.
+Epoch 46, Mean Reward: 11.90
+Epoch 47: Reached 5000 samples, ending early with 5000 samples.
+Epoch 47, Mean Reward: -44.65
+Epoch 48: Reached 5000 samples, ending early with 5000 samples.
+Epoch 48, Mean Reward: 12.22
+Epoch 49: Reached 5000 samples, ending early with 5000 samples.
+Epoch 49, Mean Reward: -2.15
+Epoch 50: Reached 5000 samples, ending early with 5000 samples.
+Epoch 50, Mean Reward: 16.25
+Epoch 51: Reached 5000 samples, ending early with 5000 samples.
+Epoch 51, Mean Reward: 71.56
+Epoch 52: Reached 5000 samples, ending early with 5000 samples.
+Epoch 52, Mean Reward: 25.49
+Epoch 53: Reached 5000 samples, ending early with 5000 samples.
+Epoch 53, Mean Reward: -20.24
+Epoch 54: Reached 5000 samples, ending early with 5000 samples.
+Epoch 54, Mean Reward: 22.61
+Epoch 55: Reached 5000 samples, ending early with 5000 samples.
+Epoch 55, Mean Reward: 24.68
+Epoch 56: Reached 5000 samples, ending early with 5000 samples.
+Epoch 56, Mean Reward: 44.94
+Epoch 57: Reached 5000 samples, ending early with 5000 samples.
+Epoch 57, Mean Reward: 11.07
+Epoch 58: Reached 5000 samples, ending early with 5000 samples.
+Epoch 58, Mean Reward: 46.91
+Epoch 59: Reached 5000 samples, ending early with 5000 samples.
+Eval at 300000 samples: 70.84
+Epoch 59, Mean Reward: 63.34
+Epoch 60: Reached 5000 samples, ending early with 5000 samples.
+Epoch 60, Mean Reward: 37.00
+Epoch 61: Reached 5000 samples, ending early with 5000 samples.
+Epoch 61, Mean Reward: 53.00
+Epoch 62: Reached 5000 samples, ending early with 5000 samples.
+Epoch 62, Mean Reward: 78.97
+Epoch 63: Reached 5000 samples, ending early with 5000 samples.
+Epoch 63, Mean Reward: 71.25
+Epoch 64: Reached 5000 samples, ending early with 5000 samples.
+Epoch 64, Mean Reward: 55.36
+Epoch 65: Reached 5000 samples, ending early with 5000 samples.
+Epoch 65, Mean Reward: 78.52
+Epoch 66: Reached 5000 samples, ending early with 5000 samples.
+Epoch 66, Mean Reward: 38.54
+Epoch 67: Reached 5000 samples, ending early with 5000 samples.
+Epoch 67, Mean Reward: 19.41
+Epoch 68: Reached 5000 samples, ending early with 5000 samples.
+Epoch 68, Mean Reward: 39.87
+Epoch 69: Reached 5000 samples, ending early with 5000 samples.
+Epoch 69, Mean Reward: 88.54
+Epoch 70: Reached 5000 samples, ending early with 5000 samples.
+Epoch 70, Mean Reward: 74.79
+Epoch 71: Reached 5000 samples, ending early with 5000 samples.
+Epoch 71, Mean Reward: 52.71
+Epoch 72: Reached 5000 samples, ending early with 5000 samples.
+Epoch 72, Mean Reward: 66.44
+Epoch 73: Reached 5000 samples, ending early with 5000 samples.
+Epoch 73, Mean Reward: 73.01
+Epoch 74: Reached 5000 samples, ending early with 5000 samples.
+Epoch 74, Mean Reward: 109.20
+Epoch 75: Reached 5000 samples, ending early with 5000 samples.
+Epoch 75, Mean Reward: 81.74
+Epoch 76: Reached 5000 samples, ending early with 5000 samples.
+Epoch 76, Mean Reward: 78.18
+Epoch 77: Reached 5000 samples, ending early with 5000 samples.
+Epoch 77, Mean Reward: 94.86
+Epoch 78: Reached 5000 samples, ending early with 5000 samples.
+Epoch 78, Mean Reward: 122.58
+Epoch 79: Reached 5000 samples, ending early with 5000 samples.
+Eval at 400000 samples: 85.91
+Epoch 79, Mean Reward: 79.46
+Epoch 80: Reached 5000 samples, ending early with 5000 samples.
+Epoch 80, Mean Reward: 113.81
+Epoch 81: Reached 5000 samples, ending early with 5000 samples.
+Epoch 81, Mean Reward: 114.54
+Epoch 82: Reached 5000 samples, ending early with 5000 samples.
+Epoch 82, Mean Reward: 60.72
+Epoch 83: Reached 5000 samples, ending early with 5000 samples.
+Epoch 83, Mean Reward: 116.49
+Epoch 84: Reached 5000 samples, ending early with 5000 samples.
+Epoch 84, Mean Reward: 136.91
+Epoch 85: Reached 5000 samples, ending early with 5000 samples.
+Epoch 85, Mean Reward: 88.35
+Epoch 86: Reached 5000 samples, ending early with 5000 samples.
+Epoch 86, Mean Reward: 141.24
+Epoch 87: Reached 5000 samples, ending early with 5000 samples.
+Epoch 87, Mean Reward: 152.31
+Epoch 88: Reached 5000 samples, ending early with 5000 samples.
+Epoch 88, Mean Reward: 136.08
+Epoch 89: Reached 5000 samples, ending early with 5000 samples.
+Epoch 89, Mean Reward: 136.78
+Epoch 90: Reached 5000 samples, ending early with 5000 samples.
+Epoch 90, Mean Reward: 173.84
+Epoch 91: Reached 5000 samples, ending early with 5000 samples.
+Epoch 91, Mean Reward: 133.23
+Epoch 92: Reached 5000 samples, ending early with 5000 samples.
+Epoch 92, Mean Reward: 156.49
+Epoch 93: Reached 5000 samples, ending early with 5000 samples.
+Epoch 93, Mean Reward: 142.63
+Epoch 94: Reached 5000 samples, ending early with 5000 samples.
+Epoch 94, Mean Reward: 148.04
+Epoch 95: Reached 5000 samples, ending early with 5000 samples.
+Epoch 95, Mean Reward: 118.37
+Epoch 96: Reached 5000 samples, ending early with 5000 samples.
+Epoch 96, Mean Reward: 190.78
+Epoch 97: Reached 5000 samples, ending early with 5000 samples.
+Epoch 97, Mean Reward: 157.89
+Epoch 98: Reached 5000 samples, ending early with 5000 samples.
+Epoch 98, Mean Reward: 178.18
+Epoch 99: Reached 5000 samples, ending early with 5000 samples.
+Eval at 500000 samples: 164.94
+Epoch 99, Mean Reward: 160.42
+Epoch 100: Reached 5000 samples, ending early with 5000 samples.
+Epoch 100, Mean Reward: 146.36
+Epoch 101: Reached 5000 samples, ending early with 5000 samples.
+Epoch 101, Mean Reward: 180.04
+Epoch 102: Reached 5000 samples, ending early with 5000 samples.
+Epoch 102, Mean Reward: 192.35
+Epoch 103: Reached 5000 samples, ending early with 5000 samples.
+Epoch 103, Mean Reward: 172.67
+Epoch 104: Reached 5000 samples, ending early with 5000 samples.
+Epoch 104, Mean Reward: 198.89
+Epoch 105: Reached 5000 samples, ending early with 5000 samples.
+Epoch 105, Mean Reward: 206.31
+Epoch 106: Reached 5000 samples, ending early with 5000 samples.
+Epoch 106, Mean Reward: 188.58
+Epoch 107: Reached 5000 samples, ending early with 5000 samples.
+Epoch 107, Mean Reward: 221.15
+Epoch 108: Reached 5000 samples, ending early with 5000 samples.
+Epoch 108, Mean Reward: 197.19
+Epoch 109: Reached 5000 samples, ending early with 5000 samples.
+Epoch 109, Mean Reward: 197.71
+Epoch 110: Reached 5000 samples, ending early with 5000 samples.
+Epoch 110, Mean Reward: 203.13
+Epoch 111: Reached 5000 samples, ending early with 5000 samples.
+Epoch 111, Mean Reward: 202.43
+Epoch 112: Reached 5000 samples, ending early with 5000 samples.
+Epoch 112, Mean Reward: 197.41
+Epoch 113: Reached 5000 samples, ending early with 5000 samples.
+Epoch 113, Mean Reward: 245.89
+Epoch 114: Reached 5000 samples, ending early with 5000 samples.
+Epoch 114, Mean Reward: 144.02
+Epoch 115: Reached 5000 samples, ending early with 5000 samples.
+Epoch 115, Mean Reward: 206.95
+Epoch 116: Reached 5000 samples, ending early with 5000 samples.
+Epoch 116, Mean Reward: 210.26
+Epoch 117: Reached 5000 samples, ending early with 5000 samples.
+Epoch 117, Mean Reward: 226.36
+Epoch 118: Reached 5000 samples, ending early with 5000 samples.
+Epoch 118, Mean Reward: 198.80
+Epoch 119: Reached 5000 samples, ending early with 5000 samples.
+Eval at 600000 samples: 196.52
+Epoch 119, Mean Reward: 219.97
+Epoch 120: Reached 5000 samples, ending early with 5000 samples.
+Epoch 120, Mean Reward: 239.35
+Epoch 121: Reached 5000 samples, ending early with 5000 samples.
+Epoch 121, Mean Reward: 235.42
+Epoch 122: Reached 5000 samples, ending early with 5000 samples.
+Epoch 122, Mean Reward: 225.19
+Epoch 123: Reached 5000 samples, ending early with 5000 samples.
+Epoch 123, Mean Reward: 211.67
+Epoch 124: Reached 5000 samples, ending early with 5000 samples.
+Epoch 124, Mean Reward: 227.83
+Epoch 125: Reached 5000 samples, ending early with 5000 samples.
+Epoch 125, Mean Reward: 210.62
+Epoch 126: Reached 5000 samples, ending early with 5000 samples.
+Epoch 126, Mean Reward: 222.41
+Epoch 127: Reached 5000 samples, ending early with 5000 samples.
+Epoch 127, Mean Reward: 289.06
+Epoch 128: Reached 5000 samples, ending early with 5000 samples.
+Epoch 128, Mean Reward: 234.80
+Epoch 129: Reached 5000 samples, ending early with 5000 samples.
+Epoch 129, Mean Reward: 226.55
+Epoch 130: Reached 5000 samples, ending early with 5000 samples.
+Epoch 130, Mean Reward: 283.61
+Epoch 131: Reached 5000 samples, ending early with 5000 samples.
+Epoch 131, Mean Reward: 264.16
+Epoch 132: Reached 5000 samples, ending early with 5000 samples.
+Epoch 132, Mean Reward: 272.03
+Epoch 133: Reached 5000 samples, ending early with 5000 samples.
+Epoch 133, Mean Reward: 269.61
+Epoch 134: Reached 5000 samples, ending early with 5000 samples.
+Epoch 134, Mean Reward: 253.76
+Epoch 135: Reached 5000 samples, ending early with 5000 samples.
+Epoch 135, Mean Reward: 285.98
+Epoch 136: Reached 5000 samples, ending early with 5000 samples.
+Epoch 136, Mean Reward: 266.86
+Epoch 137: Reached 5000 samples, ending early with 5000 samples.
+Epoch 137, Mean Reward: 296.95
+Epoch 138: Reached 5000 samples, ending early with 5000 samples.
+Epoch 138, Mean Reward: 264.76
+Epoch 139: Reached 5000 samples, ending early with 5000 samples.
+Eval at 700000 samples: 289.70
+Epoch 139, Mean Reward: 276.06
+Epoch 140: Reached 5000 samples, ending early with 5000 samples.
+Epoch 140, Mean Reward: 281.52
+Epoch 141: Reached 5000 samples, ending early with 5000 samples.
+Epoch 141, Mean Reward: 336.05
+Epoch 142: Reached 5000 samples, ending early with 5000 samples.
+Epoch 142, Mean Reward: 270.74
+Epoch 143: Reached 5000 samples, ending early with 5000 samples.
+Epoch 143, Mean Reward: 313.90
+Epoch 144: Reached 5000 samples, ending early with 5000 samples.
+Epoch 144, Mean Reward: 262.74
+Epoch 145: Reached 5000 samples, ending early with 5000 samples.
+Epoch 145, Mean Reward: 275.24
+Epoch 146: Reached 5000 samples, ending early with 5000 samples.
+Epoch 146, Mean Reward: 239.37
+Epoch 147: Reached 5000 samples, ending early with 5000 samples.
+Epoch 147, Mean Reward: 294.58
+Epoch 148: Reached 5000 samples, ending early with 5000 samples.
+Epoch 148, Mean Reward: 340.39
+Epoch 149: Reached 5000 samples, ending early with 5000 samples.
+Epoch 149, Mean Reward: 329.84
+Epoch 150: Reached 5000 samples, ending early with 5000 samples.
+Epoch 150, Mean Reward: 305.54
+Epoch 151: Reached 5000 samples, ending early with 5000 samples.
+Epoch 151, Mean Reward: 328.16
+Epoch 152: Reached 5000 samples, ending early with 5000 samples.
+Epoch 152, Mean Reward: 302.50
+Epoch 153: Reached 5000 samples, ending early with 5000 samples.
+Epoch 153, Mean Reward: 342.46
+Epoch 154: Reached 5000 samples, ending early with 5000 samples.
+Epoch 154, Mean Reward: 336.13
+Epoch 155: Reached 5000 samples, ending early with 5000 samples.
+Epoch 155, Mean Reward: 302.01
+Epoch 156: Reached 5000 samples, ending early with 5000 samples.
+Epoch 156, Mean Reward: 310.81
+Epoch 157: Reached 5000 samples, ending early with 5000 samples.
+Epoch 157, Mean Reward: 361.22
+Epoch 158: Reached 5000 samples, ending early with 5000 samples.
+Epoch 158, Mean Reward: 357.96
+Epoch 159: Reached 5000 samples, ending early with 5000 samples.
+Eval at 800000 samples: 294.12
+Epoch 159, Mean Reward: 361.96
+Epoch 160: Reached 5000 samples, ending early with 5000 samples.
+Epoch 160, Mean Reward: 334.84
+Epoch 161: Reached 5000 samples, ending early with 5000 samples.
+Epoch 161, Mean Reward: 343.14
+Epoch 162: Reached 5000 samples, ending early with 5000 samples.
+Epoch 162, Mean Reward: 357.76
+Epoch 163: Reached 5000 samples, ending early with 5000 samples.
+Epoch 163, Mean Reward: 267.09
+Epoch 164: Reached 5000 samples, ending early with 5000 samples.
+Epoch 164, Mean Reward: 364.83
+Epoch 165: Reached 5000 samples, ending early with 5000 samples.
+Epoch 165, Mean Reward: 326.10
+Epoch 166: Reached 5000 samples, ending early with 5000 samples.
+Epoch 166, Mean Reward: 285.78
+Epoch 167: Reached 5000 samples, ending early with 5000 samples.
+Epoch 167, Mean Reward: 308.02
+Epoch 168: Reached 5000 samples, ending early with 5000 samples.
+Epoch 168, Mean Reward: 375.11
+Epoch 169: Reached 5000 samples, ending early with 5000 samples.
+Epoch 169, Mean Reward: 362.12
+Epoch 170: Reached 5000 samples, ending early with 5000 samples.
+Epoch 170, Mean Reward: 375.00
+Epoch 171: Reached 5000 samples, ending early with 5000 samples.
+Epoch 171, Mean Reward: 379.58
+Epoch 172: Reached 5000 samples, ending early with 5000 samples.
+Epoch 172, Mean Reward: 422.00
+Epoch 173: Reached 5000 samples, ending early with 5000 samples.
+Epoch 173, Mean Reward: 419.90
+Epoch 174: Reached 5000 samples, ending early with 5000 samples.
+Epoch 174, Mean Reward: 392.15
+Epoch 175: Reached 5000 samples, ending early with 5000 samples.
+Epoch 175, Mean Reward: 347.55
+Epoch 176: Reached 5000 samples, ending early with 5000 samples.
+Epoch 176, Mean Reward: 250.82
+Epoch 177: Reached 5000 samples, ending early with 5000 samples.
+Epoch 177, Mean Reward: 363.95
+Epoch 178: Reached 5000 samples, ending early with 5000 samples.
+Epoch 178, Mean Reward: 387.29
+Epoch 179: Reached 5000 samples, ending early with 5000 samples.
+Eval at 900000 samples: 399.38
+Epoch 179, Mean Reward: 401.89
+Epoch 180: Reached 5000 samples, ending early with 5000 samples.
+Epoch 180, Mean Reward: 405.25
+Epoch 181: Reached 5000 samples, ending early with 5000 samples.
+Epoch 181, Mean Reward: 362.30
+Epoch 182: Reached 5000 samples, ending early with 5000 samples.
+Epoch 182, Mean Reward: 448.75
+Epoch 183: Reached 5000 samples, ending early with 5000 samples.
+Epoch 183, Mean Reward: 401.86
+Epoch 184: Reached 5000 samples, ending early with 5000 samples.
+Epoch 184, Mean Reward: 392.05
+Epoch 185: Reached 5000 samples, ending early with 5000 samples.
+Epoch 185, Mean Reward: 409.75
+Epoch 186: Reached 5000 samples, ending early with 5000 samples.
+Epoch 186, Mean Reward: 415.27
+Epoch 187: Reached 5000 samples, ending early with 5000 samples.
+Epoch 187, Mean Reward: 432.99
+Epoch 188: Reached 5000 samples, ending early with 5000 samples.
+Epoch 188, Mean Reward: 358.89
+Epoch 189: Reached 5000 samples, ending early with 5000 samples.
+Epoch 189, Mean Reward: 441.44
+Epoch 190: Reached 5000 samples, ending early with 5000 samples.
+Epoch 190, Mean Reward: 403.73
+Epoch 191: Reached 5000 samples, ending early with 5000 samples.
+Epoch 191, Mean Reward: 421.72
+Epoch 192: Reached 5000 samples, ending early with 5000 samples.
+Epoch 192, Mean Reward: 430.95
+Epoch 193: Reached 5000 samples, ending early with 5000 samples.
+Epoch 193, Mean Reward: 417.94
+Epoch 194: Reached 5000 samples, ending early with 5000 samples.
+Epoch 194, Mean Reward: 401.93
+Epoch 195: Reached 5000 samples, ending early with 5000 samples.
+Epoch 195, Mean Reward: 464.35
+Epoch 196: Reached 5000 samples, ending early with 5000 samples.
+Epoch 196, Mean Reward: 412.71
+Epoch 197: Reached 5000 samples, ending early with 5000 samples.
+Epoch 197, Mean Reward: 473.24
+Epoch 198: Reached 5000 samples, ending early with 5000 samples.
+Epoch 198, Mean Reward: 421.06
+Epoch 199: Reached 5000 samples, ending early with 5000 samples.
+Eval at 1000000 samples: 485.02
+Epoch 199, Mean Reward: 436.49
+Epoch 200: Reached 5000 samples, ending early with 5000 samples.
+Epoch 200, Mean Reward: 374.82
+Epoch 201: Reached 5000 samples, ending early with 5000 samples.
+Epoch 201, Mean Reward: 423.89
+Epoch 202: Reached 5000 samples, ending early with 5000 samples.
+Epoch 202, Mean Reward: 378.66
+Epoch 203: Reached 5000 samples, ending early with 5000 samples.
+Epoch 203, Mean Reward: 459.58
+Epoch 204: Reached 5000 samples, ending early with 5000 samples.
+Epoch 204, Mean Reward: 455.98
+Epoch 205: Reached 5000 samples, ending early with 5000 samples.
+Epoch 205, Mean Reward: 488.85
+Epoch 206: Reached 5000 samples, ending early with 5000 samples.
+Epoch 206, Mean Reward: 486.83
+Epoch 207: Reached 5000 samples, ending early with 5000 samples.
+Epoch 207, Mean Reward: 510.92
+Epoch 208: Reached 5000 samples, ending early with 5000 samples.
+Epoch 208, Mean Reward: 469.23
+Epoch 209: Reached 5000 samples, ending early with 5000 samples.
+Epoch 209, Mean Reward: 426.62
+Epoch 210: Reached 5000 samples, ending early with 5000 samples.
+Epoch 210, Mean Reward: 487.73
+Epoch 211: Reached 5000 samples, ending early with 5000 samples.
+Epoch 211, Mean Reward: 412.59
+Epoch 212: Reached 5000 samples, ending early with 5000 samples.
+Epoch 212, Mean Reward: 503.50
+Epoch 213: Reached 5000 samples, ending early with 5000 samples.
+Epoch 213, Mean Reward: 479.99
+Epoch 214: Reached 5000 samples, ending early with 5000 samples.
+Epoch 214, Mean Reward: 435.11
+Epoch 215: Reached 5000 samples, ending early with 5000 samples.
+Epoch 215, Mean Reward: 460.93
+Epoch 216: Reached 5000 samples, ending early with 5000 samples.
+Epoch 216, Mean Reward: 465.06
+Epoch 217: Reached 5000 samples, ending early with 5000 samples.
+Epoch 217, Mean Reward: 470.09
+Epoch 218: Reached 5000 samples, ending early with 5000 samples.
+Epoch 218, Mean Reward: 490.51
+Epoch 219: Reached 5000 samples, ending early with 5000 samples.
+Eval at 1100000 samples: 489.86
+Epoch 219, Mean Reward: 490.82
+Epoch 220: Reached 5000 samples, ending early with 5000 samples.
+Epoch 220, Mean Reward: 445.11
+Epoch 221: Reached 5000 samples, ending early with 5000 samples.
+Epoch 221, Mean Reward: 478.40
+Epoch 222: Reached 5000 samples, ending early with 5000 samples.
+Epoch 222, Mean Reward: 513.16
+Epoch 223: Reached 5000 samples, ending early with 5000 samples.
+Epoch 223, Mean Reward: 463.39
+Epoch 224: Reached 5000 samples, ending early with 5000 samples.
+Epoch 224, Mean Reward: 512.88
+Epoch 225: Reached 5000 samples, ending early with 5000 samples.
+Epoch 225, Mean Reward: 503.88
+Epoch 226: Reached 5000 samples, ending early with 5000 samples.
+Epoch 226, Mean Reward: 496.65
+Epoch 227: Reached 5000 samples, ending early with 5000 samples.
+Epoch 227, Mean Reward: 546.76
+Epoch 228: Reached 5000 samples, ending early with 5000 samples.
+Epoch 228, Mean Reward: 495.39
+Epoch 229: Reached 5000 samples, ending early with 5000 samples.
+Epoch 229, Mean Reward: 544.62
+Epoch 230: Reached 5000 samples, ending early with 5000 samples.
+Epoch 230, Mean Reward: 565.34
+Epoch 231: Reached 5000 samples, ending early with 5000 samples.
+Epoch 231, Mean Reward: 544.83
+Epoch 232: Reached 5000 samples, ending early with 5000 samples.
+Epoch 232, Mean Reward: 532.97
+Epoch 233: Reached 5000 samples, ending early with 5000 samples.
+Epoch 233, Mean Reward: 530.30
+Epoch 234: Reached 5000 samples, ending early with 5000 samples.
+Epoch 234, Mean Reward: 522.90
+Epoch 235: Reached 5000 samples, ending early with 5000 samples.
+Epoch 235, Mean Reward: 528.63
+Epoch 236: Reached 5000 samples, ending early with 5000 samples.
+Epoch 236, Mean Reward: 559.87
+Epoch 237: Reached 5000 samples, ending early with 5000 samples.
+Epoch 237, Mean Reward: 564.13
+Epoch 238: Reached 5000 samples, ending early with 5000 samples.
+Epoch 238, Mean Reward: 542.69
+Epoch 239: Reached 5000 samples, ending early with 5000 samples.
+Eval at 1200000 samples: 556.12
+Epoch 239, Mean Reward: 546.48
+Epoch 240: Reached 5000 samples, ending early with 5000 samples.
+Epoch 240, Mean Reward: 559.10
+Epoch 241: Reached 5000 samples, ending early with 5000 samples.
+Epoch 241, Mean Reward: 508.89
+Epoch 242: Reached 5000 samples, ending early with 5000 samples.
+Epoch 242, Mean Reward: 570.87
+Epoch 243: Reached 5000 samples, ending early with 5000 samples.
+Epoch 243, Mean Reward: 490.42
+Epoch 244: Reached 5000 samples, ending early with 5000 samples.
+Epoch 244, Mean Reward: 580.08
+Epoch 245: Reached 5000 samples, ending early with 5000 samples.
+Epoch 245, Mean Reward: 544.07
+Epoch 246: Reached 5000 samples, ending early with 5000 samples.
+Epoch 246, Mean Reward: 406.34
+Epoch 247: Reached 5000 samples, ending early with 5000 samples.
+Epoch 247, Mean Reward: 492.65
+Epoch 248: Reached 5000 samples, ending early with 5000 samples.
+Epoch 248, Mean Reward: 567.99
+Epoch 249: Reached 5000 samples, ending early with 5000 samples.
+Epoch 249, Mean Reward: 538.47
+Epoch 250: Reached 5000 samples, ending early with 5000 samples.
+Epoch 250, Mean Reward: 561.34
+Epoch 251: Reached 5000 samples, ending early with 5000 samples.
+Epoch 251, Mean Reward: 525.14
+Epoch 252: Reached 5000 samples, ending early with 5000 samples.
+Epoch 252, Mean Reward: 553.86
+Epoch 253: Reached 5000 samples, ending early with 5000 samples.
+Epoch 253, Mean Reward: 555.44
+Epoch 254: Reached 5000 samples, ending early with 5000 samples.
+Epoch 254, Mean Reward: 555.15
+Epoch 255: Reached 5000 samples, ending early with 5000 samples.
+Epoch 255, Mean Reward: 503.34
+Epoch 256: Reached 5000 samples, ending early with 5000 samples.
+Epoch 256, Mean Reward: 569.75
+Epoch 257: Reached 5000 samples, ending early with 5000 samples.
+Epoch 257, Mean Reward: 552.29
+Epoch 258: Reached 5000 samples, ending early with 5000 samples.
+Epoch 258, Mean Reward: 590.91
+Epoch 259: Reached 5000 samples, ending early with 5000 samples.
+Eval at 1300000 samples: 596.44
+Epoch 259, Mean Reward: 456.83
+Epoch 260: Reached 5000 samples, ending early with 5000 samples.
+Epoch 260, Mean Reward: 496.28
+Epoch 261: Reached 5000 samples, ending early with 5000 samples.
+Epoch 261, Mean Reward: 610.57
+Epoch 262: Reached 5000 samples, ending early with 5000 samples.
+Epoch 262, Mean Reward: 625.10
+Epoch 263: Reached 5000 samples, ending early with 5000 samples.
+Epoch 263, Mean Reward: 582.19
+Epoch 264: Reached 5000 samples, ending early with 5000 samples.
+Epoch 264, Mean Reward: 651.52
+Epoch 265: Reached 5000 samples, ending early with 5000 samples.
+Epoch 265, Mean Reward: 566.01
+Epoch 266: Reached 5000 samples, ending early with 5000 samples.
+Epoch 266, Mean Reward: 593.80
+Epoch 267: Reached 5000 samples, ending early with 5000 samples.
+Epoch 267, Mean Reward: 554.26
+Epoch 268: Reached 5000 samples, ending early with 5000 samples.
+Epoch 268, Mean Reward: 525.13
+Epoch 269: Reached 5000 samples, ending early with 5000 samples.
+Epoch 269, Mean Reward: 599.10
+Epoch 270: Reached 5000 samples, ending early with 5000 samples.
+Epoch 270, Mean Reward: 558.21
+Epoch 271: Reached 5000 samples, ending early with 5000 samples.
+Epoch 271, Mean Reward: 579.78
+Epoch 272: Reached 5000 samples, ending early with 5000 samples.
+Epoch 272, Mean Reward: 592.05
+Epoch 273: Reached 5000 samples, ending early with 5000 samples.
+Epoch 273, Mean Reward: 599.99
+Epoch 274: Reached 5000 samples, ending early with 5000 samples.
+Epoch 274, Mean Reward: 613.17
+Epoch 275: Reached 5000 samples, ending early with 5000 samples.
+Epoch 275, Mean Reward: 602.07
+Epoch 276: Reached 5000 samples, ending early with 5000 samples.
+Epoch 276, Mean Reward: 630.63
+Epoch 277: Reached 5000 samples, ending early with 5000 samples.
+Epoch 277, Mean Reward: 547.35
+Epoch 278: Reached 5000 samples, ending early with 5000 samples.
+Epoch 278, Mean Reward: 621.01
+Epoch 279: Reached 5000 samples, ending early with 5000 samples.
+Eval at 1400000 samples: 585.71
+Epoch 279, Mean Reward: 553.56
+Epoch 280: Reached 5000 samples, ending early with 5000 samples.
+Epoch 280, Mean Reward: 642.62
+Epoch 281: Reached 5000 samples, ending early with 5000 samples.
+Epoch 281, Mean Reward: 631.28
+Epoch 282: Reached 5000 samples, ending early with 5000 samples.
+Epoch 282, Mean Reward: 542.78
+Epoch 283: Reached 5000 samples, ending early with 5000 samples.
+Epoch 283, Mean Reward: 565.23
+Epoch 284: Reached 5000 samples, ending early with 5000 samples.
+Epoch 284, Mean Reward: 597.68
+Epoch 285: Reached 5000 samples, ending early with 5000 samples.
+Epoch 285, Mean Reward: 601.40
+Epoch 286: Reached 5000 samples, ending early with 5000 samples.
+Epoch 286, Mean Reward: 650.10
+Epoch 287: Reached 5000 samples, ending early with 5000 samples.
+Epoch 287, Mean Reward: 663.55
+Epoch 288: Reached 5000 samples, ending early with 5000 samples.
+Epoch 288, Mean Reward: 625.28
+Epoch 289: Reached 5000 samples, ending early with 5000 samples.
+Epoch 289, Mean Reward: 597.33
+Epoch 290: Reached 5000 samples, ending early with 5000 samples.
+Epoch 290, Mean Reward: 636.35
+Epoch 291: Reached 5000 samples, ending early with 5000 samples.
+Epoch 291, Mean Reward: 674.41
+Epoch 292: Reached 5000 samples, ending early with 5000 samples.
+Epoch 292, Mean Reward: 616.76
+Epoch 293: Reached 5000 samples, ending early with 5000 samples.
+Epoch 293, Mean Reward: 646.14
+Epoch 294: Reached 5000 samples, ending early with 5000 samples.
+Epoch 294, Mean Reward: 646.84
+Epoch 295: Reached 5000 samples, ending early with 5000 samples.
+Epoch 295, Mean Reward: 668.51
+Epoch 296: Reached 5000 samples, ending early with 5000 samples.
+Epoch 296, Mean Reward: 679.73
+Epoch 297: Reached 5000 samples, ending early with 5000 samples.
+Epoch 297, Mean Reward: 658.35
+Epoch 298: Reached 5000 samples, ending early with 5000 samples.
+Epoch 298, Mean Reward: 595.98
+Epoch 299: Reached 5000 samples, ending early with 5000 samples.
+Eval at 1500000 samples: 688.12
+Epoch 299, Mean Reward: 660.14
+Epoch 300: Reached 5000 samples, ending early with 5000 samples.
+Epoch 300, Mean Reward: 640.74
+Epoch 301: Reached 5000 samples, ending early with 5000 samples.
+Epoch 301, Mean Reward: 642.80
+Epoch 302: Reached 5000 samples, ending early with 5000 samples.
+Epoch 302, Mean Reward: 668.43
+Epoch 303: Reached 5000 samples, ending early with 5000 samples.
+Epoch 303, Mean Reward: 681.93
+Epoch 304: Reached 5000 samples, ending early with 5000 samples.
+Epoch 304, Mean Reward: 683.62
+Epoch 305: Reached 5000 samples, ending early with 5000 samples.
+Epoch 305, Mean Reward: 662.49
+Epoch 306: Reached 5000 samples, ending early with 5000 samples.
+Epoch 306, Mean Reward: 630.63
+Epoch 307: Reached 5000 samples, ending early with 5000 samples.
+Epoch 307, Mean Reward: 626.38
+Epoch 308: Reached 5000 samples, ending early with 5000 samples.
+Epoch 308, Mean Reward: 641.05
+Epoch 309: Reached 5000 samples, ending early with 5000 samples.
+Epoch 309, Mean Reward: 612.22
+Epoch 310: Reached 5000 samples, ending early with 5000 samples.
+Epoch 310, Mean Reward: 663.30
+Epoch 311: Reached 5000 samples, ending early with 5000 samples.
+Epoch 311, Mean Reward: 696.30
+Epoch 312: Reached 5000 samples, ending early with 5000 samples.
+Epoch 312, Mean Reward: 613.72
+Epoch 313: Reached 5000 samples, ending early with 5000 samples.
+Epoch 313, Mean Reward: 702.64
+Epoch 314: Reached 5000 samples, ending early with 5000 samples.
+Epoch 314, Mean Reward: 630.65
+Epoch 315: Reached 5000 samples, ending early with 5000 samples.
+Epoch 315, Mean Reward: 690.36
+Epoch 316: Reached 5000 samples, ending early with 5000 samples.
+Epoch 316, Mean Reward: 704.51
+Epoch 317: Reached 5000 samples, ending early with 5000 samples.
+Epoch 317, Mean Reward: 661.48
+Epoch 318: Reached 5000 samples, ending early with 5000 samples.
+Epoch 318, Mean Reward: 698.45
+Epoch 319: Reached 5000 samples, ending early with 5000 samples.
+Eval at 1600000 samples: 664.68
+Epoch 319, Mean Reward: 658.23
+Epoch 320: Reached 5000 samples, ending early with 5000 samples.
+Epoch 320, Mean Reward: 673.84
+Epoch 321: Reached 5000 samples, ending early with 5000 samples.
+Epoch 321, Mean Reward: 680.03
+Epoch 322: Reached 5000 samples, ending early with 5000 samples.
+Epoch 322, Mean Reward: 733.71
+Epoch 323: Reached 5000 samples, ending early with 5000 samples.
+Epoch 323, Mean Reward: 662.09
+Epoch 324: Reached 5000 samples, ending early with 5000 samples.
+Epoch 324, Mean Reward: 695.63
+Epoch 325: Reached 5000 samples, ending early with 5000 samples.
+Epoch 325, Mean Reward: 650.91
+Epoch 326: Reached 5000 samples, ending early with 5000 samples.
+Epoch 326, Mean Reward: 679.63
+Epoch 327: Reached 5000 samples, ending early with 5000 samples.
+Epoch 327, Mean Reward: 688.16
+Epoch 328: Reached 5000 samples, ending early with 5000 samples.
+Epoch 328, Mean Reward: 738.02
+Epoch 329: Reached 5000 samples, ending early with 5000 samples.
+Epoch 329, Mean Reward: 716.16
+Epoch 330: Reached 5000 samples, ending early with 5000 samples.
+Epoch 330, Mean Reward: 706.12
+Epoch 331: Reached 5000 samples, ending early with 5000 samples.
+Epoch 331, Mean Reward: 657.78
+Epoch 332: Reached 5000 samples, ending early with 5000 samples.
+Epoch 332, Mean Reward: 505.27
+Epoch 333: Reached 5000 samples, ending early with 5000 samples.
+Epoch 333, Mean Reward: 685.68
+Epoch 334: Reached 5000 samples, ending early with 5000 samples.
+Epoch 334, Mean Reward: 737.32
+Epoch 335: Reached 5000 samples, ending early with 5000 samples.
+Epoch 335, Mean Reward: 727.07
+Epoch 336: Reached 5000 samples, ending early with 5000 samples.
+Epoch 336, Mean Reward: 687.94
+Epoch 337: Reached 5000 samples, ending early with 5000 samples.
+Epoch 337, Mean Reward: 742.16
+Epoch 338: Reached 5000 samples, ending early with 5000 samples.
+Epoch 338, Mean Reward: 690.39
+Epoch 339: Reached 5000 samples, ending early with 5000 samples.
+Eval at 1700000 samples: 740.03
+Epoch 339, Mean Reward: 656.26
+Epoch 340: Reached 5000 samples, ending early with 5000 samples.
+Epoch 340, Mean Reward: 563.89
+Epoch 341: Reached 5000 samples, ending early with 5000 samples.
+Epoch 341, Mean Reward: 790.37
+Epoch 342: Reached 5000 samples, ending early with 5000 samples.
+Epoch 342, Mean Reward: 731.52
+Epoch 343: Reached 5000 samples, ending early with 5000 samples.
+Epoch 343, Mean Reward: 641.07
+Epoch 344: Reached 5000 samples, ending early with 5000 samples.
+Epoch 344, Mean Reward: 703.31
+Epoch 345: Reached 5000 samples, ending early with 5000 samples.
+Epoch 345, Mean Reward: 689.36
+Epoch 346: Reached 5000 samples, ending early with 5000 samples.
+Epoch 346, Mean Reward: 698.31
+Epoch 347: Reached 5000 samples, ending early with 5000 samples.
+Epoch 347, Mean Reward: 746.16
+Epoch 348: Reached 5000 samples, ending early with 5000 samples.
+Epoch 348, Mean Reward: 723.56
+Epoch 349: Reached 5000 samples, ending early with 5000 samples.
+Epoch 349, Mean Reward: 727.21
+Epoch 350: Reached 5000 samples, ending early with 5000 samples.
+Epoch 350, Mean Reward: 714.67
+Epoch 351: Reached 5000 samples, ending early with 5000 samples.
+Epoch 351, Mean Reward: 767.38
+Epoch 352: Reached 5000 samples, ending early with 5000 samples.
+Epoch 352, Mean Reward: 776.94
+Epoch 353: Reached 5000 samples, ending early with 5000 samples.
+Epoch 353, Mean Reward: 769.51
+Epoch 354: Reached 5000 samples, ending early with 5000 samples.
+Epoch 354, Mean Reward: 661.87
+Epoch 355: Reached 5000 samples, ending early with 5000 samples.
+Epoch 355, Mean Reward: 769.61
+Epoch 356: Reached 5000 samples, ending early with 5000 samples.
+Epoch 356, Mean Reward: 670.37
+Epoch 357: Reached 5000 samples, ending early with 5000 samples.
+Epoch 357, Mean Reward: 678.78
+Epoch 358: Reached 5000 samples, ending early with 5000 samples.
+Epoch 358, Mean Reward: 696.51
+Epoch 359: Reached 5000 samples, ending early with 5000 samples.
+Eval at 1800000 samples: 692.80
+Epoch 359, Mean Reward: 741.46
+Epoch 360: Reached 5000 samples, ending early with 5000 samples.
+Epoch 360, Mean Reward: 658.22
+Epoch 361: Reached 5000 samples, ending early with 5000 samples.
+Epoch 361, Mean Reward: 753.16
+Epoch 362: Reached 5000 samples, ending early with 5000 samples.
+Epoch 362, Mean Reward: 722.95
+Epoch 363: Reached 5000 samples, ending early with 5000 samples.
+Epoch 363, Mean Reward: 672.39
+Epoch 364: Reached 5000 samples, ending early with 5000 samples.
+Epoch 364, Mean Reward: 783.04
+Epoch 365: Reached 5000 samples, ending early with 5000 samples.
+Epoch 365, Mean Reward: 802.54
+Epoch 366: Reached 5000 samples, ending early with 5000 samples.
+Epoch 366, Mean Reward: 746.73
+Epoch 367: Reached 5000 samples, ending early with 5000 samples.
+Epoch 367, Mean Reward: 716.98
+Epoch 368: Reached 5000 samples, ending early with 5000 samples.
+Epoch 368, Mean Reward: 692.26
+Epoch 369: Reached 5000 samples, ending early with 5000 samples.
+Epoch 369, Mean Reward: 768.72
+Epoch 370: Reached 5000 samples, ending early with 5000 samples.
+Epoch 370, Mean Reward: 765.24
+Epoch 371: Reached 5000 samples, ending early with 5000 samples.
+Epoch 371, Mean Reward: 771.97
+Epoch 372: Reached 5000 samples, ending early with 5000 samples.
+Epoch 372, Mean Reward: 754.38
+Epoch 373: Reached 5000 samples, ending early with 5000 samples.
+Epoch 373, Mean Reward: 730.10
+Epoch 374: Reached 5000 samples, ending early with 5000 samples.
+Epoch 374, Mean Reward: 676.75
+Epoch 375: Reached 5000 samples, ending early with 5000 samples.
+Epoch 375, Mean Reward: 702.13
+Epoch 376: Reached 5000 samples, ending early with 5000 samples.
+Epoch 376, Mean Reward: 735.88
+Epoch 377: Reached 5000 samples, ending early with 5000 samples.
+Epoch 377, Mean Reward: 777.37
+Epoch 378: Reached 5000 samples, ending early with 5000 samples.
+Epoch 378, Mean Reward: 762.23
+Epoch 379: Reached 5000 samples, ending early with 5000 samples.
+Eval at 1900000 samples: 754.14
+Epoch 379, Mean Reward: 766.70
+Epoch 380: Reached 5000 samples, ending early with 5000 samples.
+Epoch 380, Mean Reward: 760.52
+Epoch 381: Reached 5000 samples, ending early with 5000 samples.
+Epoch 381, Mean Reward: 741.53
+Epoch 382: Reached 5000 samples, ending early with 5000 samples.
+Epoch 382, Mean Reward: 724.72
+Epoch 383: Reached 5000 samples, ending early with 5000 samples.
+Epoch 383, Mean Reward: 769.13
+Epoch 384: Reached 5000 samples, ending early with 5000 samples.
+Epoch 384, Mean Reward: 751.51
+Epoch 385: Reached 5000 samples, ending early with 5000 samples.
+Epoch 385, Mean Reward: 778.73
+Epoch 386: Reached 5000 samples, ending early with 5000 samples.
+Epoch 386, Mean Reward: 759.45
+Epoch 387: Reached 5000 samples, ending early with 5000 samples.
+Epoch 387, Mean Reward: 775.91
+Epoch 388: Reached 5000 samples, ending early with 5000 samples.
+Epoch 388, Mean Reward: 790.34
+Epoch 389: Reached 5000 samples, ending early with 5000 samples.
+Epoch 389, Mean Reward: 745.60
+Epoch 390: Reached 5000 samples, ending early with 5000 samples.
+Epoch 390, Mean Reward: 768.75
+Epoch 391: Reached 5000 samples, ending early with 5000 samples.
+Epoch 391, Mean Reward: 729.74
+Epoch 392: Reached 5000 samples, ending early with 5000 samples.
+Epoch 392, Mean Reward: 799.29
+Epoch 393: Reached 5000 samples, ending early with 5000 samples.
+Epoch 393, Mean Reward: 778.79
+Epoch 394: Reached 5000 samples, ending early with 5000 samples.
+Epoch 394, Mean Reward: 800.55
+Epoch 395: Reached 5000 samples, ending early with 5000 samples.
+Epoch 395, Mean Reward: 796.00
+Epoch 396: Reached 5000 samples, ending early with 5000 samples.
+Epoch 396, Mean Reward: 759.48
+Epoch 397: Reached 5000 samples, ending early with 5000 samples.
+Epoch 397, Mean Reward: 795.56
+Epoch 398: Reached 5000 samples, ending early with 5000 samples.
+Epoch 398, Mean Reward: 771.88
+Epoch 399: Reached 5000 samples, ending early with 5000 samples.
+Eval at 2000000 samples: 744.30
+Epoch 399, Mean Reward: 787.47
+Epoch 400: Reached 5000 samples, ending early with 5000 samples.
+Epoch 400, Mean Reward: 781.95
+Epoch 401: Reached 5000 samples, ending early with 5000 samples.
+Epoch 401, Mean Reward: 784.21
+Epoch 402: Reached 5000 samples, ending early with 5000 samples.
+Epoch 402, Mean Reward: 805.35
+Epoch 403: Reached 5000 samples, ending early with 5000 samples.
+Epoch 403, Mean Reward: 801.42
+Epoch 404: Reached 5000 samples, ending early with 5000 samples.
+Epoch 404, Mean Reward: 803.16
+Epoch 405: Reached 5000 samples, ending early with 5000 samples.
+Epoch 405, Mean Reward: 811.62
+Epoch 406: Reached 5000 samples, ending early with 5000 samples.
+Epoch 406, Mean Reward: 794.75
+Epoch 407: Reached 5000 samples, ending early with 5000 samples.
+Epoch 407, Mean Reward: 843.64
+Epoch 408: Reached 5000 samples, ending early with 5000 samples.
+Epoch 408, Mean Reward: 869.89
+Epoch 409: Reached 5000 samples, ending early with 5000 samples.
+Epoch 409, Mean Reward: 835.50
+Epoch 410: Reached 5000 samples, ending early with 5000 samples.
+Epoch 410, Mean Reward: 851.39
+Epoch 411: Reached 5000 samples, ending early with 5000 samples.
+Epoch 411, Mean Reward: 639.27
+Epoch 412: Reached 5000 samples, ending early with 5000 samples.
+Epoch 412, Mean Reward: 823.13
+Epoch 413: Reached 5000 samples, ending early with 5000 samples.
+Epoch 413, Mean Reward: 854.62
+Epoch 414: Reached 5000 samples, ending early with 5000 samples.
+Epoch 414, Mean Reward: 821.80
+Epoch 415: Reached 5000 samples, ending early with 5000 samples.
+Epoch 415, Mean Reward: 797.73
+Epoch 416: Reached 5000 samples, ending early with 5000 samples.
+Epoch 416, Mean Reward: 872.31
+Epoch 417: Reached 5000 samples, ending early with 5000 samples.
+Epoch 417, Mean Reward: 639.20
+Epoch 418: Reached 5000 samples, ending early with 5000 samples.
+Epoch 418, Mean Reward: 770.65
+Epoch 419: Reached 5000 samples, ending early with 5000 samples.
+Eval at 2100000 samples: 860.35
+Epoch 419, Mean Reward: 761.17
+Epoch 420: Reached 5000 samples, ending early with 5000 samples.
+Epoch 420, Mean Reward: 813.93
+Epoch 421: Reached 5000 samples, ending early with 5000 samples.
+Epoch 421, Mean Reward: 823.74
+Epoch 422: Reached 5000 samples, ending early with 5000 samples.
+Epoch 422, Mean Reward: 845.52
+Epoch 423: Reached 5000 samples, ending early with 5000 samples.
+Epoch 423, Mean Reward: 821.88
+Epoch 424: Reached 5000 samples, ending early with 5000 samples.
+Epoch 424, Mean Reward: 811.96
+Epoch 425: Reached 5000 samples, ending early with 5000 samples.
+Epoch 425, Mean Reward: 833.20
+Epoch 426: Reached 5000 samples, ending early with 5000 samples.
+Epoch 426, Mean Reward: 874.95
+Epoch 427: Reached 5000 samples, ending early with 5000 samples.
+Epoch 427, Mean Reward: 865.48
+Epoch 428: Reached 5000 samples, ending early with 5000 samples.
+Epoch 428, Mean Reward: 837.09
+Epoch 429: Reached 5000 samples, ending early with 5000 samples.
+Epoch 429, Mean Reward: 831.48
+Epoch 430: Reached 5000 samples, ending early with 5000 samples.
+Epoch 430, Mean Reward: 910.17
+Epoch 431: Reached 5000 samples, ending early with 5000 samples.
+Epoch 431, Mean Reward: 853.13
+Epoch 432: Reached 5000 samples, ending early with 5000 samples.
+Epoch 432, Mean Reward: 937.67
+Epoch 433: Reached 5000 samples, ending early with 5000 samples.
+Epoch 433, Mean Reward: 859.85
+Epoch 434: Reached 5000 samples, ending early with 5000 samples.
+Epoch 434, Mean Reward: 893.36
+Epoch 435: Reached 5000 samples, ending early with 5000 samples.
+Epoch 435, Mean Reward: 876.95
+Epoch 436: Reached 5000 samples, ending early with 5000 samples.
+Epoch 436, Mean Reward: 905.75
+Epoch 437: Reached 5000 samples, ending early with 5000 samples.
+Epoch 437, Mean Reward: 856.59
+Epoch 438: Reached 5000 samples, ending early with 5000 samples.
+Epoch 438, Mean Reward: 928.46
+Epoch 439: Reached 5000 samples, ending early with 5000 samples.
+Eval at 2200000 samples: 918.82
+Epoch 439, Mean Reward: 938.03
+Epoch 440: Reached 5000 samples, ending early with 5000 samples.
+Epoch 440, Mean Reward: 902.46
+Epoch 441: Reached 5000 samples, ending early with 5000 samples.
+Epoch 441, Mean Reward: 906.07
+Epoch 442: Reached 5000 samples, ending early with 5000 samples.
+Epoch 442, Mean Reward: 816.78
+Epoch 443: Reached 5000 samples, ending early with 5000 samples.
+Epoch 443, Mean Reward: 873.49
+Epoch 444: Reached 5000 samples, ending early with 5000 samples.
+Epoch 444, Mean Reward: 878.02
+Epoch 445: Reached 5000 samples, ending early with 5000 samples.
+Epoch 445, Mean Reward: 855.13
+Epoch 446: Reached 5000 samples, ending early with 5000 samples.
+Epoch 446, Mean Reward: 931.60
+Epoch 447: Reached 5000 samples, ending early with 5000 samples.
+Epoch 447, Mean Reward: 967.44
+Epoch 448: Reached 5000 samples, ending early with 5000 samples.
+Epoch 448, Mean Reward: 934.25
+Epoch 449: Reached 5000 samples, ending early with 5000 samples.
+Epoch 449, Mean Reward: 848.94
+Epoch 450: Reached 5000 samples, ending early with 5000 samples.
+Epoch 450, Mean Reward: 915.14
+Epoch 451: Reached 5000 samples, ending early with 5000 samples.
+Epoch 451, Mean Reward: 853.08
+Epoch 452: Reached 5000 samples, ending early with 5000 samples.
+Epoch 452, Mean Reward: 928.75
+Epoch 453: Reached 5000 samples, ending early with 5000 samples.
+Epoch 453, Mean Reward: 901.43
+Epoch 454: Reached 5000 samples, ending early with 5000 samples.
+Epoch 454, Mean Reward: 892.52
+Epoch 455: Reached 5000 samples, ending early with 5000 samples.
+Epoch 455, Mean Reward: 871.59
+Epoch 456: Reached 5000 samples, ending early with 5000 samples.
+Epoch 456, Mean Reward: 910.63
+Epoch 457: Reached 5000 samples, ending early with 5000 samples.
+Epoch 457, Mean Reward: 870.81
+Epoch 458: Reached 5000 samples, ending early with 5000 samples.
+Epoch 458, Mean Reward: 880.10
+Epoch 459: Reached 5000 samples, ending early with 5000 samples.
+Eval at 2300000 samples: 885.33
+Epoch 459, Mean Reward: 867.06
+Epoch 460: Reached 5000 samples, ending early with 5000 samples.
+Epoch 460, Mean Reward: 883.82
+Epoch 461: Reached 5000 samples, ending early with 5000 samples.
+Epoch 461, Mean Reward: 878.51
+Epoch 462: Reached 5000 samples, ending early with 5000 samples.
+Epoch 462, Mean Reward: 822.10
+Epoch 463: Reached 5000 samples, ending early with 5000 samples.
+Epoch 463, Mean Reward: 1007.04
+Epoch 464: Reached 5000 samples, ending early with 5000 samples.
+Epoch 464, Mean Reward: 816.23
+Epoch 465: Reached 5000 samples, ending early with 5000 samples.
+Epoch 465, Mean Reward: 962.59
+Epoch 466: Reached 5000 samples, ending early with 5000 samples.
+Epoch 466, Mean Reward: 911.52
+Epoch 467: Reached 5000 samples, ending early with 5000 samples.
+Epoch 467, Mean Reward: 875.50
+Epoch 468: Reached 5000 samples, ending early with 5000 samples.
+Epoch 468, Mean Reward: 967.95
+Epoch 469: Reached 5000 samples, ending early with 5000 samples.
+Epoch 469, Mean Reward: 986.89
+Epoch 470: Reached 5000 samples, ending early with 5000 samples.
+Epoch 470, Mean Reward: 892.48
+Epoch 471: Reached 5000 samples, ending early with 5000 samples.
+Epoch 471, Mean Reward: 834.59
+Epoch 472: Reached 5000 samples, ending early with 5000 samples.
+Epoch 472, Mean Reward: 943.19
+Epoch 473: Reached 5000 samples, ending early with 5000 samples.
+Epoch 473, Mean Reward: 862.35
+Epoch 474: Reached 5000 samples, ending early with 5000 samples.
+Epoch 474, Mean Reward: 825.78
+Epoch 475: Reached 5000 samples, ending early with 5000 samples.
+Epoch 475, Mean Reward: 843.46
+Epoch 476: Reached 5000 samples, ending early with 5000 samples.
+Epoch 476, Mean Reward: 867.01
+Epoch 477: Reached 5000 samples, ending early with 5000 samples.
+Epoch 477, Mean Reward: 865.66
+Epoch 478: Reached 5000 samples, ending early with 5000 samples.
+Epoch 478, Mean Reward: 943.98
+Epoch 479: Reached 5000 samples, ending early with 5000 samples.
+Eval at 2400000 samples: 912.13
+Epoch 479, Mean Reward: 939.55
+Epoch 480: Reached 5000 samples, ending early with 5000 samples.
+Epoch 480, Mean Reward: 927.26
+Epoch 481: Reached 5000 samples, ending early with 5000 samples.
+Epoch 481, Mean Reward: 908.95
+Epoch 482: Reached 5000 samples, ending early with 5000 samples.
+Epoch 482, Mean Reward: 959.97
+Epoch 483: Reached 5000 samples, ending early with 5000 samples.
+Epoch 483, Mean Reward: 922.50
+Epoch 484: Reached 5000 samples, ending early with 5000 samples.
+Epoch 484, Mean Reward: 918.37
+Epoch 485: Reached 5000 samples, ending early with 5000 samples.
+Epoch 485, Mean Reward: 927.29
+Epoch 486: Reached 5000 samples, ending early with 5000 samples.
+Epoch 486, Mean Reward: 966.73
+Epoch 487: Reached 5000 samples, ending early with 5000 samples.
+Epoch 487, Mean Reward: 950.46
+Epoch 488: Reached 5000 samples, ending early with 5000 samples.
+Epoch 488, Mean Reward: 963.04
+Epoch 489: Reached 5000 samples, ending early with 5000 samples.
+Epoch 489, Mean Reward: 962.66
+Epoch 490: Reached 5000 samples, ending early with 5000 samples.
+Epoch 490, Mean Reward: 921.68
+Epoch 491: Reached 5000 samples, ending early with 5000 samples.
+Epoch 491, Mean Reward: 938.53
+Epoch 492: Reached 5000 samples, ending early with 5000 samples.
+Epoch 492, Mean Reward: 976.21
+Epoch 493: Reached 5000 samples, ending early with 5000 samples.
+Epoch 493, Mean Reward: 918.15
+Epoch 494: Reached 5000 samples, ending early with 5000 samples.
+Epoch 494, Mean Reward: 932.94
+Epoch 495: Reached 5000 samples, ending early with 5000 samples.
+Epoch 495, Mean Reward: 931.83
+Epoch 496: Reached 5000 samples, ending early with 5000 samples.
+Epoch 496, Mean Reward: 936.29
+Epoch 497: Reached 5000 samples, ending early with 5000 samples.
+Epoch 497, Mean Reward: 944.91
+Epoch 498: Reached 5000 samples, ending early with 5000 samples.
+Epoch 498, Mean Reward: 928.91
+Epoch 499: Reached 5000 samples, ending early with 5000 samples.
+Eval at 2500000 samples: 840.37
+Epoch 499, Mean Reward: 933.11
+Epoch 500: Reached 5000 samples, ending early with 5000 samples.
+Epoch 500, Mean Reward: 954.69
+Epoch 501: Reached 5000 samples, ending early with 5000 samples.
+Epoch 501, Mean Reward: 912.82
+Epoch 502: Reached 5000 samples, ending early with 5000 samples.
+Epoch 502, Mean Reward: 915.12
+Epoch 503: Reached 5000 samples, ending early with 5000 samples.
+Epoch 503, Mean Reward: 971.74
+Epoch 504: Reached 5000 samples, ending early with 5000 samples.
+Epoch 504, Mean Reward: 989.99
+Epoch 505: Reached 5000 samples, ending early with 5000 samples.
+Epoch 505, Mean Reward: 976.21
+Epoch 506: Reached 5000 samples, ending early with 5000 samples.
+Epoch 506, Mean Reward: 963.60
+Epoch 507: Reached 5000 samples, ending early with 5000 samples.
+Epoch 507, Mean Reward: 1015.96
+Epoch 508: Reached 5000 samples, ending early with 5000 samples.
+Epoch 508, Mean Reward: 890.84
+Epoch 509: Reached 5000 samples, ending early with 5000 samples.
+Epoch 509, Mean Reward: 728.17
+Epoch 510: Reached 5000 samples, ending early with 5000 samples.
+Epoch 510, Mean Reward: 946.36
+Epoch 511: Reached 5000 samples, ending early with 5000 samples.
+Epoch 511, Mean Reward: 863.92
+Epoch 512: Reached 5000 samples, ending early with 5000 samples.
+Epoch 512, Mean Reward: 945.54
+Epoch 513: Reached 5000 samples, ending early with 5000 samples.
+Epoch 513, Mean Reward: 941.95
+Epoch 514: Reached 5000 samples, ending early with 5000 samples.
+Epoch 514, Mean Reward: 977.56
+Epoch 515: Reached 5000 samples, ending early with 5000 samples.
+Epoch 515, Mean Reward: 733.47
+Epoch 516: Reached 5000 samples, ending early with 5000 samples.
+Epoch 516, Mean Reward: 1005.24
+Epoch 517: Reached 5000 samples, ending early with 5000 samples.
+Epoch 517, Mean Reward: 900.32
+Epoch 518: Reached 5000 samples, ending early with 5000 samples.
+Epoch 518, Mean Reward: 545.90
+Epoch 519: Reached 5000 samples, ending early with 5000 samples.
+Eval at 2600000 samples: 931.92
+Epoch 519, Mean Reward: 860.37
+Epoch 520: Reached 5000 samples, ending early with 5000 samples.
+Epoch 520, Mean Reward: 975.14
+Epoch 521: Reached 5000 samples, ending early with 5000 samples.
+Epoch 521, Mean Reward: 985.60
+Epoch 522: Reached 5000 samples, ending early with 5000 samples.
+Epoch 522, Mean Reward: 962.61
+Epoch 523: Reached 5000 samples, ending early with 5000 samples.
+Epoch 523, Mean Reward: 996.42
+Epoch 524: Reached 5000 samples, ending early with 5000 samples.
+Epoch 524, Mean Reward: 902.15
+Epoch 525: Reached 5000 samples, ending early with 5000 samples.
+Epoch 525, Mean Reward: 978.07
+Epoch 526: Reached 5000 samples, ending early with 5000 samples.
+Epoch 526, Mean Reward: 996.91
+Epoch 527: Reached 5000 samples, ending early with 5000 samples.
+Epoch 527, Mean Reward: 961.89
+Epoch 528: Reached 5000 samples, ending early with 5000 samples.
+Epoch 528, Mean Reward: 716.26
+Epoch 529: Reached 5000 samples, ending early with 5000 samples.
+Epoch 529, Mean Reward: 947.15
+Epoch 530: Reached 5000 samples, ending early with 5000 samples.
+Epoch 530, Mean Reward: 911.81
+Epoch 531: Reached 5000 samples, ending early with 5000 samples.
+Epoch 531, Mean Reward: 892.56
+Epoch 532: Reached 5000 samples, ending early with 5000 samples.
+Epoch 532, Mean Reward: 899.25
+Epoch 533: Reached 5000 samples, ending early with 5000 samples.
+Epoch 533, Mean Reward: 1007.44
+Epoch 534: Reached 5000 samples, ending early with 5000 samples.
+Epoch 534, Mean Reward: 992.31
+Epoch 535: Reached 5000 samples, ending early with 5000 samples.
+Epoch 535, Mean Reward: 1028.23
+Epoch 536: Reached 5000 samples, ending early with 5000 samples.
+Epoch 536, Mean Reward: 950.05
+Epoch 537: Reached 5000 samples, ending early with 5000 samples.
+Epoch 537, Mean Reward: 1027.20
+Epoch 538: Reached 5000 samples, ending early with 5000 samples.
+Epoch 538, Mean Reward: 931.29
+Epoch 539: Reached 5000 samples, ending early with 5000 samples.
+Eval at 2700000 samples: 990.75
+Epoch 539, Mean Reward: 990.30
+Epoch 540: Reached 5000 samples, ending early with 5000 samples.
+Epoch 540, Mean Reward: 995.39
+Epoch 541: Reached 5000 samples, ending early with 5000 samples.
+Epoch 541, Mean Reward: 1018.34
+Epoch 542: Reached 5000 samples, ending early with 5000 samples.
+Epoch 542, Mean Reward: 1017.89
+Epoch 543: Reached 5000 samples, ending early with 5000 samples.
+Epoch 543, Mean Reward: 766.05
+Epoch 544: Reached 5000 samples, ending early with 5000 samples.
+Epoch 544, Mean Reward: 795.88
+Epoch 545: Reached 5000 samples, ending early with 5000 samples.
+Epoch 545, Mean Reward: 941.53
+Epoch 546: Reached 5000 samples, ending early with 5000 samples.
+Epoch 546, Mean Reward: 743.19
+Epoch 547: Reached 5000 samples, ending early with 5000 samples.
+Epoch 547, Mean Reward: 958.91
+Epoch 548: Reached 5000 samples, ending early with 5000 samples.
+Epoch 548, Mean Reward: 944.66
+Epoch 549: Reached 5000 samples, ending early with 5000 samples.
+Epoch 549, Mean Reward: 901.99
+Epoch 550: Reached 5000 samples, ending early with 5000 samples.
+Epoch 550, Mean Reward: 706.91
+Epoch 551: Reached 5000 samples, ending early with 5000 samples.
+Epoch 551, Mean Reward: 943.53
+Epoch 552: Reached 5000 samples, ending early with 5000 samples.
+Epoch 552, Mean Reward: 938.69
+Epoch 553: Reached 5000 samples, ending early with 5000 samples.
+Epoch 553, Mean Reward: 1048.39
+Epoch 554: Reached 5000 samples, ending early with 5000 samples.
+Epoch 554, Mean Reward: 1045.50
+Epoch 555: Reached 5000 samples, ending early with 5000 samples.
+Epoch 555, Mean Reward: 953.19
+Epoch 556: Reached 5000 samples, ending early with 5000 samples.
+Epoch 556, Mean Reward: 991.43
+Epoch 557: Reached 5000 samples, ending early with 5000 samples.
+Epoch 557, Mean Reward: 939.39
+Epoch 558: Reached 5000 samples, ending early with 5000 samples.
+Epoch 558, Mean Reward: 973.55
+Epoch 559: Reached 5000 samples, ending early with 5000 samples.
+Eval at 2800000 samples: 792.65
+Epoch 559, Mean Reward: 1039.26
+Epoch 560: Reached 5000 samples, ending early with 5000 samples.
+Epoch 560, Mean Reward: 957.16
+Epoch 561: Reached 5000 samples, ending early with 5000 samples.
+Epoch 561, Mean Reward: 989.83
+Epoch 562: Reached 5000 samples, ending early with 5000 samples.
+Epoch 562, Mean Reward: 762.85
+Epoch 563: Reached 5000 samples, ending early with 5000 samples.
+Epoch 563, Mean Reward: 937.45
+Epoch 564: Reached 5000 samples, ending early with 5000 samples.
+Epoch 564, Mean Reward: 987.55
+Epoch 565: Reached 5000 samples, ending early with 5000 samples.
+Epoch 565, Mean Reward: 973.88
+Epoch 566: Reached 5000 samples, ending early with 5000 samples.
+Epoch 566, Mean Reward: 748.88
+Epoch 567: Reached 5000 samples, ending early with 5000 samples.
+Epoch 567, Mean Reward: 1034.83
+Epoch 568: Reached 5000 samples, ending early with 5000 samples.
+Epoch 568, Mean Reward: 975.39
+Epoch 569: Reached 5000 samples, ending early with 5000 samples.
+Epoch 569, Mean Reward: 1000.27
+Epoch 570: Reached 5000 samples, ending early with 5000 samples.
+Epoch 570, Mean Reward: 1038.30
+Epoch 571: Reached 5000 samples, ending early with 5000 samples.
+Epoch 571, Mean Reward: 1007.63
+Epoch 572: Reached 5000 samples, ending early with 5000 samples.
+Epoch 572, Mean Reward: 919.40
+Epoch 573: Reached 5000 samples, ending early with 5000 samples.
+Epoch 573, Mean Reward: 966.77
+Epoch 574: Reached 5000 samples, ending early with 5000 samples.
+Epoch 574, Mean Reward: 954.59
+Epoch 575: Reached 5000 samples, ending early with 5000 samples.
+Epoch 575, Mean Reward: 1026.48
+Epoch 576: Reached 5000 samples, ending early with 5000 samples.
+Epoch 576, Mean Reward: 998.47
+Epoch 577: Reached 5000 samples, ending early with 5000 samples.
+Epoch 577, Mean Reward: 1009.63
+Epoch 578: Reached 5000 samples, ending early with 5000 samples.
+Epoch 578, Mean Reward: 982.99
+Epoch 579: Reached 5000 samples, ending early with 5000 samples.
+Eval at 2900000 samples: 850.24
+Epoch 579, Mean Reward: 1003.00
+Epoch 580: Reached 5000 samples, ending early with 5000 samples.
+Epoch 580, Mean Reward: 969.30
+Epoch 581: Reached 5000 samples, ending early with 5000 samples.
+Epoch 581, Mean Reward: 940.39
+Epoch 582: Reached 5000 samples, ending early with 5000 samples.
+Epoch 582, Mean Reward: 908.00
+Epoch 583: Reached 5000 samples, ending early with 5000 samples.
+Epoch 583, Mean Reward: 938.71
+Epoch 584: Reached 5000 samples, ending early with 5000 samples.
+Epoch 584, Mean Reward: 876.09
+Epoch 585: Reached 5000 samples, ending early with 5000 samples.
+Epoch 585, Mean Reward: 912.17
+Epoch 586: Reached 5000 samples, ending early with 5000 samples.
+Epoch 586, Mean Reward: 951.49
+Epoch 587: Reached 5000 samples, ending early with 5000 samples.
+Epoch 587, Mean Reward: 887.26
+Epoch 588: Reached 5000 samples, ending early with 5000 samples.
+Epoch 588, Mean Reward: 876.06
+Epoch 589: Reached 5000 samples, ending early with 5000 samples.
+Epoch 589, Mean Reward: 965.18
+Epoch 590: Reached 5000 samples, ending early with 5000 samples.
+Epoch 590, Mean Reward: 920.01
+Epoch 591: Reached 5000 samples, ending early with 5000 samples.
+Epoch 591, Mean Reward: 971.62
+Epoch 592: Reached 5000 samples, ending early with 5000 samples.
+Epoch 592, Mean Reward: 1003.82
+Epoch 593: Reached 5000 samples, ending early with 5000 samples.
+Epoch 593, Mean Reward: 1014.10
+Epoch 594: Reached 5000 samples, ending early with 5000 samples.
+Epoch 594, Mean Reward: 1004.82
+Epoch 595: Reached 5000 samples, ending early with 5000 samples.
+Epoch 595, Mean Reward: 952.36
+Epoch 596: Reached 5000 samples, ending early with 5000 samples.
+Epoch 596, Mean Reward: 950.44
+Epoch 597: Reached 5000 samples, ending early with 5000 samples.
+Epoch 597, Mean Reward: 859.14
+Epoch 598: Reached 5000 samples, ending early with 5000 samples.
+Epoch 598, Mean Reward: 988.44
+Epoch 599: Reached 5000 samples, ending early with 5000 samples.
+Eval at 3000000 samples: 1013.66
+Epoch 599, Mean Reward: 978.05
+Epoch 600: Reached 5000 samples, ending early with 5000 samples.
+Epoch 600, Mean Reward: 952.83
+Epoch 601: Reached 5000 samples, ending early with 5000 samples.
+Epoch 601, Mean Reward: 1010.57
+Epoch 602: Reached 5000 samples, ending early with 5000 samples.
+Epoch 602, Mean Reward: 1005.61
+Epoch 603: Reached 5000 samples, ending early with 5000 samples.
+Epoch 603, Mean Reward: 892.72
+Epoch 604: Reached 5000 samples, ending early with 5000 samples.
+Epoch 604, Mean Reward: 729.40
+Epoch 605: Reached 5000 samples, ending early with 5000 samples.
+Epoch 605, Mean Reward: 1043.73
+Epoch 606: Reached 5000 samples, ending early with 5000 samples.
+Epoch 606, Mean Reward: 955.82
+Epoch 607: Reached 5000 samples, ending early with 5000 samples.
+Epoch 607, Mean Reward: 1036.32
+Epoch 608: Reached 5000 samples, ending early with 5000 samples.
+Epoch 608, Mean Reward: 1007.96
+Epoch 609: Reached 5000 samples, ending early with 5000 samples.
+Epoch 609, Mean Reward: 945.89
+Epoch 610: Reached 5000 samples, ending early with 5000 samples.
+Epoch 610, Mean Reward: 964.41
+Epoch 611: Reached 5000 samples, ending early with 5000 samples.
+Epoch 611, Mean Reward: 991.24
+Epoch 612: Reached 5000 samples, ending early with 5000 samples.
+Epoch 612, Mean Reward: 957.36
+Epoch 613: Reached 5000 samples, ending early with 5000 samples.
+Epoch 613, Mean Reward: 738.18
+Epoch 614: Reached 5000 samples, ending early with 5000 samples.
+Epoch 614, Mean Reward: 990.05
+Epoch 615: Reached 5000 samples, ending early with 5000 samples.
+Epoch 615, Mean Reward: 1016.97
+Epoch 616: Reached 5000 samples, ending early with 5000 samples.
+Epoch 616, Mean Reward: 845.35
+Epoch 617: Reached 5000 samples, ending early with 5000 samples.
+Epoch 617, Mean Reward: 943.70
+Epoch 618: Reached 5000 samples, ending early with 5000 samples.
+Epoch 618, Mean Reward: 950.97
+Epoch 619: Reached 5000 samples, ending early with 5000 samples.
+Eval at 3100000 samples: 975.55
+Epoch 619, Mean Reward: 1012.85
+Epoch 620: Reached 5000 samples, ending early with 5000 samples.
+Epoch 620, Mean Reward: 993.05
+Epoch 621: Reached 5000 samples, ending early with 5000 samples.
+Epoch 621, Mean Reward: 1049.75
+Epoch 622: Reached 5000 samples, ending early with 5000 samples.
+Epoch 622, Mean Reward: 934.85
+Epoch 623: Reached 5000 samples, ending early with 5000 samples.
+Epoch 623, Mean Reward: 957.63
+Epoch 624: Reached 5000 samples, ending early with 5000 samples.
+Epoch 624, Mean Reward: 989.31
+Epoch 625: Reached 5000 samples, ending early with 5000 samples.
+Epoch 625, Mean Reward: 1014.36
+Epoch 626: Reached 5000 samples, ending early with 5000 samples.
+Epoch 626, Mean Reward: 976.79
+Epoch 627: Reached 5000 samples, ending early with 5000 samples.
+Epoch 627, Mean Reward: 1065.05
+Epoch 628: Reached 5000 samples, ending early with 5000 samples.
+Epoch 628, Mean Reward: 1067.84
+Epoch 629: Reached 5000 samples, ending early with 5000 samples.
+Epoch 629, Mean Reward: 906.42
+Epoch 630: Reached 5000 samples, ending early with 5000 samples.
+Epoch 630, Mean Reward: 963.16
+Epoch 631: Reached 5000 samples, ending early with 5000 samples.
+Epoch 631, Mean Reward: 1033.66
+Epoch 632: Reached 5000 samples, ending early with 5000 samples.
+Epoch 632, Mean Reward: 836.70
+Epoch 633: Reached 5000 samples, ending early with 5000 samples.
+Epoch 633, Mean Reward: 980.93
+Epoch 634: Reached 5000 samples, ending early with 5000 samples.
+Epoch 634, Mean Reward: 1059.16
+Epoch 635: Reached 5000 samples, ending early with 5000 samples.
+Epoch 635, Mean Reward: 1032.38
+Epoch 636: Reached 5000 samples, ending early with 5000 samples.
+Epoch 636, Mean Reward: 976.77
+Epoch 637: Reached 5000 samples, ending early with 5000 samples.
+Epoch 637, Mean Reward: 982.42
+Epoch 638: Reached 5000 samples, ending early with 5000 samples.
+Epoch 638, Mean Reward: 1024.57
+Epoch 639: Reached 5000 samples, ending early with 5000 samples.
+Eval at 3200000 samples: 986.84
+Epoch 639, Mean Reward: 1012.56
+Epoch 640: Reached 5000 samples, ending early with 5000 samples.
+Epoch 640, Mean Reward: 1022.79
+Epoch 641: Reached 5000 samples, ending early with 5000 samples.
+Epoch 641, Mean Reward: 1042.43
+Epoch 642: Reached 5000 samples, ending early with 5000 samples.
+Epoch 642, Mean Reward: 1001.45
+Epoch 643: Reached 5000 samples, ending early with 5000 samples.
+Epoch 643, Mean Reward: 1068.25
+Epoch 644: Reached 5000 samples, ending early with 5000 samples.
+Epoch 644, Mean Reward: 934.62
+Epoch 645: Reached 5000 samples, ending early with 5000 samples.
+Epoch 645, Mean Reward: 1028.15
+Epoch 646: Reached 5000 samples, ending early with 5000 samples.
+Epoch 646, Mean Reward: 989.64
+Epoch 647: Reached 5000 samples, ending early with 5000 samples.
+Epoch 647, Mean Reward: 954.81
+Epoch 648: Reached 5000 samples, ending early with 5000 samples.
+Epoch 648, Mean Reward: 1010.04
+Epoch 649: Reached 5000 samples, ending early with 5000 samples.
+Epoch 649, Mean Reward: 958.61
+Epoch 650: Reached 5000 samples, ending early with 5000 samples.
+Epoch 650, Mean Reward: 1017.34
+Epoch 651: Reached 5000 samples, ending early with 5000 samples.
+Epoch 651, Mean Reward: 999.87
+Epoch 652: Reached 5000 samples, ending early with 5000 samples.
+Epoch 652, Mean Reward: 1009.79
+Epoch 653: Reached 5000 samples, ending early with 5000 samples.
+Epoch 653, Mean Reward: 951.43
+Epoch 654: Reached 5000 samples, ending early with 5000 samples.
+Epoch 654, Mean Reward: 1027.52
+Epoch 655: Reached 5000 samples, ending early with 5000 samples.
+Epoch 655, Mean Reward: 1047.63
+Epoch 656: Reached 5000 samples, ending early with 5000 samples.
+Epoch 656, Mean Reward: 1074.60
+Epoch 657: Reached 5000 samples, ending early with 5000 samples.
+Epoch 657, Mean Reward: 1084.79
+Epoch 658: Reached 5000 samples, ending early with 5000 samples.
+Epoch 658, Mean Reward: 1029.45
+Epoch 659: Reached 5000 samples, ending early with 5000 samples.
+Eval at 3300000 samples: 999.04
+Epoch 659, Mean Reward: 982.81
+Epoch 660: Reached 5000 samples, ending early with 5000 samples.
+Epoch 660, Mean Reward: 991.44
+Epoch 661: Reached 5000 samples, ending early with 5000 samples.
+Epoch 661, Mean Reward: 944.48
+Epoch 662: Reached 5000 samples, ending early with 5000 samples.
+Epoch 662, Mean Reward: 982.66
+Epoch 663: Reached 5000 samples, ending early with 5000 samples.
+Epoch 663, Mean Reward: 1086.39
+Epoch 664: Reached 5000 samples, ending early with 5000 samples.
+Epoch 664, Mean Reward: 1153.30
+Epoch 665: Reached 5000 samples, ending early with 5000 samples.
+Epoch 665, Mean Reward: 1013.04
+Epoch 666: Reached 5000 samples, ending early with 5000 samples.
+Epoch 666, Mean Reward: 975.03
+Epoch 667: Reached 5000 samples, ending early with 5000 samples.
+Epoch 667, Mean Reward: 1027.86
+Epoch 668: Reached 5000 samples, ending early with 5000 samples.
+Epoch 668, Mean Reward: 1025.33
+Epoch 669: Reached 5000 samples, ending early with 5000 samples.
+Epoch 669, Mean Reward: 1057.66
+Epoch 670: Reached 5000 samples, ending early with 5000 samples.
+Epoch 670, Mean Reward: 1080.56
+Epoch 671: Reached 5000 samples, ending early with 5000 samples.
+Epoch 671, Mean Reward: 1001.76
+Epoch 672: Reached 5000 samples, ending early with 5000 samples.
+Epoch 672, Mean Reward: 1011.40
+Epoch 673: Reached 5000 samples, ending early with 5000 samples.
+Epoch 673, Mean Reward: 1035.65
+Epoch 674: Reached 5000 samples, ending early with 5000 samples.
+Epoch 674, Mean Reward: 995.14
+Epoch 675: Reached 5000 samples, ending early with 5000 samples.
+Epoch 675, Mean Reward: 1104.25
+Epoch 676: Reached 5000 samples, ending early with 5000 samples.
+Epoch 676, Mean Reward: 1016.53
+Epoch 677: Reached 5000 samples, ending early with 5000 samples.
+Epoch 677, Mean Reward: 1066.06
+Epoch 678: Reached 5000 samples, ending early with 5000 samples.
+Epoch 678, Mean Reward: 999.05
+Epoch 679: Reached 5000 samples, ending early with 5000 samples.
+Eval at 3400000 samples: 1028.00
+Epoch 679, Mean Reward: 1042.75
+Epoch 680: Reached 5000 samples, ending early with 5000 samples.
+Epoch 680, Mean Reward: 1017.77
+Epoch 681: Reached 5000 samples, ending early with 5000 samples.
+Epoch 681, Mean Reward: 1084.82
+Epoch 682: Reached 5000 samples, ending early with 5000 samples.
+Epoch 682, Mean Reward: 978.55
+Epoch 683: Reached 5000 samples, ending early with 5000 samples.
+Epoch 683, Mean Reward: 1053.03
+Epoch 684: Reached 5000 samples, ending early with 5000 samples.
+Epoch 684, Mean Reward: 1079.14
+Epoch 685: Reached 5000 samples, ending early with 5000 samples.
+Epoch 685, Mean Reward: 988.10
+Epoch 686: Reached 5000 samples, ending early with 5000 samples.
+Epoch 686, Mean Reward: 1041.66
+Epoch 687: Reached 5000 samples, ending early with 5000 samples.
+Epoch 687, Mean Reward: 1067.09
+Epoch 688: Reached 5000 samples, ending early with 5000 samples.
+Epoch 688, Mean Reward: 1038.98
+Epoch 689: Reached 5000 samples, ending early with 5000 samples.
+Epoch 689, Mean Reward: 1108.68
+Epoch 690: Reached 5000 samples, ending early with 5000 samples.
+Epoch 690, Mean Reward: 1070.96
+Epoch 691: Reached 5000 samples, ending early with 5000 samples.
+Epoch 691, Mean Reward: 1069.53
+Epoch 692: Reached 5000 samples, ending early with 5000 samples.
+Epoch 692, Mean Reward: 1004.63
+Epoch 693: Reached 5000 samples, ending early with 5000 samples.
+Epoch 693, Mean Reward: 1105.27
+Epoch 694: Reached 5000 samples, ending early with 5000 samples.
+Epoch 694, Mean Reward: 1044.65
+Epoch 695: Reached 5000 samples, ending early with 5000 samples.
+Epoch 695, Mean Reward: 1117.92
+Epoch 696: Reached 5000 samples, ending early with 5000 samples.
+Epoch 696, Mean Reward: 1110.49
+Epoch 697: Reached 5000 samples, ending early with 5000 samples.
+Epoch 697, Mean Reward: 1055.20
+Epoch 698: Reached 5000 samples, ending early with 5000 samples.
+Epoch 698, Mean Reward: 1116.36
+Epoch 699: Reached 5000 samples, ending early with 5000 samples.
+Eval at 3500000 samples: 1105.19
+Epoch 699, Mean Reward: 1090.69
+Epoch 700: Reached 5000 samples, ending early with 5000 samples.
+Epoch 700, Mean Reward: 1081.97
+Epoch 701: Reached 5000 samples, ending early with 5000 samples.
+Epoch 701, Mean Reward: 1079.71
+Epoch 702: Reached 5000 samples, ending early with 5000 samples.
+Epoch 702, Mean Reward: 1100.10
+Epoch 703: Reached 5000 samples, ending early with 5000 samples.
+Epoch 703, Mean Reward: 1090.57
+Epoch 704: Reached 5000 samples, ending early with 5000 samples.
+Epoch 704, Mean Reward: 1071.06
+Epoch 705: Reached 5000 samples, ending early with 5000 samples.
+Epoch 705, Mean Reward: 1047.35
+Epoch 706: Reached 5000 samples, ending early with 5000 samples.
+Epoch 706, Mean Reward: 1156.30
+Epoch 707: Reached 5000 samples, ending early with 5000 samples.
+Epoch 707, Mean Reward: 1033.61
+Epoch 708: Reached 5000 samples, ending early with 5000 samples.
+Epoch 708, Mean Reward: 1039.39
+Epoch 709: Reached 5000 samples, ending early with 5000 samples.
+Epoch 709, Mean Reward: 1060.96
+Epoch 710: Reached 5000 samples, ending early with 5000 samples.
+Epoch 710, Mean Reward: 1076.03
+Epoch 711: Reached 5000 samples, ending early with 5000 samples.
+Epoch 711, Mean Reward: 692.48
+Epoch 712: Reached 5000 samples, ending early with 5000 samples.
+Epoch 712, Mean Reward: 1044.20
+Epoch 713: Reached 5000 samples, ending early with 5000 samples.
+Epoch 713, Mean Reward: 1098.21
+Epoch 714: Reached 5000 samples, ending early with 5000 samples.
+Epoch 714, Mean Reward: 1000.40
+Epoch 715: Reached 5000 samples, ending early with 5000 samples.
+Epoch 715, Mean Reward: 1041.54
+Epoch 716: Reached 5000 samples, ending early with 5000 samples.
+Epoch 716, Mean Reward: 980.41
+Epoch 717: Reached 5000 samples, ending early with 5000 samples.
+Epoch 717, Mean Reward: 1030.01
+Epoch 718: Reached 5000 samples, ending early with 5000 samples.
+Epoch 718, Mean Reward: 1031.79
+Epoch 719: Reached 5000 samples, ending early with 5000 samples.
+Eval at 3600000 samples: 1036.10
+Epoch 719, Mean Reward: 1080.01
+Epoch 720: Reached 5000 samples, ending early with 5000 samples.
+Epoch 720, Mean Reward: 1114.76
+Epoch 721: Reached 5000 samples, ending early with 5000 samples.
+Epoch 721, Mean Reward: 1084.85
+Epoch 722: Reached 5000 samples, ending early with 5000 samples.
+Epoch 722, Mean Reward: 1086.53
+Epoch 723: Reached 5000 samples, ending early with 5000 samples.
+Epoch 723, Mean Reward: 1103.91
+Epoch 724: Reached 5000 samples, ending early with 5000 samples.
+Epoch 724, Mean Reward: 1074.54
+Epoch 725: Reached 5000 samples, ending early with 5000 samples.
+Epoch 725, Mean Reward: 1102.42
+Epoch 726: Reached 5000 samples, ending early with 5000 samples.
+Epoch 726, Mean Reward: 1034.66
+Epoch 727: Reached 5000 samples, ending early with 5000 samples.
+Epoch 727, Mean Reward: 1103.37
+Epoch 728: Reached 5000 samples, ending early with 5000 samples.
+Epoch 728, Mean Reward: 1077.42
+Epoch 729: Reached 5000 samples, ending early with 5000 samples.
+Epoch 729, Mean Reward: 1200.16
+Epoch 730: Reached 5000 samples, ending early with 5000 samples.
+Epoch 730, Mean Reward: 1030.26
+Epoch 731: Reached 5000 samples, ending early with 5000 samples.
+Epoch 731, Mean Reward: 1038.96
+Epoch 732: Reached 5000 samples, ending early with 5000 samples.
+Epoch 732, Mean Reward: 814.84
+Epoch 733: Reached 5000 samples, ending early with 5000 samples.
+Epoch 733, Mean Reward: 1094.34
+Epoch 734: Reached 5000 samples, ending early with 5000 samples.
+Epoch 734, Mean Reward: 1041.92
+Epoch 735: Reached 5000 samples, ending early with 5000 samples.
+Epoch 735, Mean Reward: 1091.87
+Epoch 736: Reached 5000 samples, ending early with 5000 samples.
+Epoch 736, Mean Reward: 1068.80
+Epoch 737: Reached 5000 samples, ending early with 5000 samples.
+Epoch 737, Mean Reward: 1148.35
+Epoch 738: Reached 5000 samples, ending early with 5000 samples.
+Epoch 738, Mean Reward: 1074.78
+Epoch 739: Reached 5000 samples, ending early with 5000 samples.
+Eval at 3700000 samples: 1074.46
+Epoch 739, Mean Reward: 997.95
+Epoch 740: Reached 5000 samples, ending early with 5000 samples.
+Epoch 740, Mean Reward: 1138.43
+Epoch 741: Reached 5000 samples, ending early with 5000 samples.
+Epoch 741, Mean Reward: 1102.20
+Epoch 742: Reached 5000 samples, ending early with 5000 samples.
+Epoch 742, Mean Reward: 1113.27
+Epoch 743: Reached 5000 samples, ending early with 5000 samples.
+Epoch 743, Mean Reward: 1076.56
+Epoch 744: Reached 5000 samples, ending early with 5000 samples.
+Epoch 744, Mean Reward: 1131.38
+Epoch 745: Reached 5000 samples, ending early with 5000 samples.
+Epoch 745, Mean Reward: 1043.20
+Epoch 746: Reached 5000 samples, ending early with 5000 samples.
+Epoch 746, Mean Reward: 1047.70
+Epoch 747: Reached 5000 samples, ending early with 5000 samples.
+Epoch 747, Mean Reward: 1081.30
+Epoch 748: Reached 5000 samples, ending early with 5000 samples.
+Epoch 748, Mean Reward: 1092.78
+Epoch 749: Reached 5000 samples, ending early with 5000 samples.
+Epoch 749, Mean Reward: 1004.51
+Epoch 750: Reached 5000 samples, ending early with 5000 samples.
+Epoch 750, Mean Reward: 1033.86
+Epoch 751: Reached 5000 samples, ending early with 5000 samples.
+Epoch 751, Mean Reward: 1079.92
+Epoch 752: Reached 5000 samples, ending early with 5000 samples.
+Epoch 752, Mean Reward: 1067.89
+Epoch 753: Reached 5000 samples, ending early with 5000 samples.
+Epoch 753, Mean Reward: 1043.97
+Epoch 754: Reached 5000 samples, ending early with 5000 samples.
+Epoch 754, Mean Reward: 1038.41
+Epoch 755: Reached 5000 samples, ending early with 5000 samples.
+Epoch 755, Mean Reward: 1072.25
+Epoch 756: Reached 5000 samples, ending early with 5000 samples.
+Epoch 756, Mean Reward: 1129.85
+Epoch 757: Reached 5000 samples, ending early with 5000 samples.
+Epoch 757, Mean Reward: 1118.83
+Epoch 758: Reached 5000 samples, ending early with 5000 samples.
+Epoch 758, Mean Reward: 1040.68
+Epoch 759: Reached 5000 samples, ending early with 5000 samples.
+Eval at 3800000 samples: 1093.83
+Epoch 759, Mean Reward: 1022.32
+Epoch 760: Reached 5000 samples, ending early with 5000 samples.
+Epoch 760, Mean Reward: 812.68
+Epoch 761: Reached 5000 samples, ending early with 5000 samples.
+Epoch 761, Mean Reward: 1104.98
+Epoch 762: Reached 5000 samples, ending early with 5000 samples.
+Epoch 762, Mean Reward: 1060.06
+Epoch 763: Reached 5000 samples, ending early with 5000 samples.
+Epoch 763, Mean Reward: 1058.35
+Epoch 764: Reached 5000 samples, ending early with 5000 samples.
+Epoch 764, Mean Reward: 1090.72
+Epoch 765: Reached 5000 samples, ending early with 5000 samples.
+Epoch 765, Mean Reward: 1094.35
+Epoch 766: Reached 5000 samples, ending early with 5000 samples.
+Epoch 766, Mean Reward: 1126.23
+Epoch 767: Reached 5000 samples, ending early with 5000 samples.
+Epoch 767, Mean Reward: 1094.23
+Epoch 768: Reached 5000 samples, ending early with 5000 samples.
+Epoch 768, Mean Reward: 1097.59
+Epoch 769: Reached 5000 samples, ending early with 5000 samples.
+Epoch 769, Mean Reward: 1143.71
+Epoch 770: Reached 5000 samples, ending early with 5000 samples.
+Epoch 770, Mean Reward: 1082.90
+Epoch 771: Reached 5000 samples, ending early with 5000 samples.
+Epoch 771, Mean Reward: 1081.70
+Epoch 772: Reached 5000 samples, ending early with 5000 samples.
+Epoch 772, Mean Reward: 1165.81
+Epoch 773: Reached 5000 samples, ending early with 5000 samples.
+Epoch 773, Mean Reward: 1161.11
+Epoch 774: Reached 5000 samples, ending early with 5000 samples.
+Epoch 774, Mean Reward: 1098.30
+Epoch 775: Reached 5000 samples, ending early with 5000 samples.
+Epoch 775, Mean Reward: 1125.50
+Epoch 776: Reached 5000 samples, ending early with 5000 samples.
+Epoch 776, Mean Reward: 1086.77
+Epoch 777: Reached 5000 samples, ending early with 5000 samples.
+Epoch 777, Mean Reward: 1128.20
+Epoch 778: Reached 5000 samples, ending early with 5000 samples.
+Epoch 778, Mean Reward: 1100.62
+Epoch 779: Reached 5000 samples, ending early with 5000 samples.
+Eval at 3900000 samples: 1108.13
+Epoch 779, Mean Reward: 1112.22
+Epoch 780: Reached 5000 samples, ending early with 5000 samples.
+Epoch 780, Mean Reward: 1135.58
+Epoch 781: Reached 5000 samples, ending early with 5000 samples.
+Epoch 781, Mean Reward: 1118.45
+Epoch 782: Reached 5000 samples, ending early with 5000 samples.
+Epoch 782, Mean Reward: 1131.54
+Epoch 783: Reached 5000 samples, ending early with 5000 samples.
+Epoch 783, Mean Reward: 1092.82
+Epoch 784: Reached 5000 samples, ending early with 5000 samples.
+Epoch 784, Mean Reward: 1129.55
+Epoch 785: Reached 5000 samples, ending early with 5000 samples.
+Epoch 785, Mean Reward: 1078.68
+Epoch 786: Reached 5000 samples, ending early with 5000 samples.
+Epoch 786, Mean Reward: 1102.88
+Epoch 787: Reached 5000 samples, ending early with 5000 samples.
+Epoch 787, Mean Reward: 1135.41
+Epoch 788: Reached 5000 samples, ending early with 5000 samples.
+Epoch 788, Mean Reward: 1142.15
+Epoch 789: Reached 5000 samples, ending early with 5000 samples.
+Epoch 789, Mean Reward: 1136.83
+Epoch 790: Reached 5000 samples, ending early with 5000 samples.
+Epoch 790, Mean Reward: 1050.24
+Epoch 791: Reached 5000 samples, ending early with 5000 samples.
+Epoch 791, Mean Reward: 1168.83
+Epoch 792: Reached 5000 samples, ending early with 5000 samples.
+Epoch 792, Mean Reward: 1099.43
+Epoch 793: Reached 5000 samples, ending early with 5000 samples.
+Epoch 793, Mean Reward: 1178.69
+Epoch 794: Reached 5000 samples, ending early with 5000 samples.
+Epoch 794, Mean Reward: 1054.15
+Epoch 795: Reached 5000 samples, ending early with 5000 samples.
+Epoch 795, Mean Reward: 1099.90
+Epoch 796: Reached 5000 samples, ending early with 5000 samples.
+Epoch 796, Mean Reward: 1195.29
+Epoch 797: Reached 5000 samples, ending early with 5000 samples.
+Epoch 797, Mean Reward: 1165.63
+Epoch 798: Reached 5000 samples, ending early with 5000 samples.
+Epoch 798, Mean Reward: 1069.46
+Epoch 799: Reached 5000 samples, ending early with 5000 samples.
+Eval at 4000000 samples: 1137.68
+Epoch 799, Mean Reward: 1163.20
+Epoch 800: Reached 5000 samples, ending early with 5000 samples.
+Epoch 800, Mean Reward: 1156.01
+Epoch 801: Reached 5000 samples, ending early with 5000 samples.
+Epoch 801, Mean Reward: 1140.53
+Epoch 802: Reached 5000 samples, ending early with 5000 samples.
+Epoch 802, Mean Reward: 1088.73
+Epoch 803: Reached 5000 samples, ending early with 5000 samples.
+Epoch 803, Mean Reward: 1068.37
+Epoch 804: Reached 5000 samples, ending early with 5000 samples.
+Epoch 804, Mean Reward: 876.68
+Epoch 805: Reached 5000 samples, ending early with 5000 samples.
+Epoch 805, Mean Reward: 1179.55
+Epoch 806: Reached 5000 samples, ending early with 5000 samples.
+Epoch 806, Mean Reward: 1146.05
+Epoch 807: Reached 5000 samples, ending early with 5000 samples.
+Epoch 807, Mean Reward: 1178.70
+Epoch 808: Reached 5000 samples, ending early with 5000 samples.
+Epoch 808, Mean Reward: 1203.01
+Epoch 809: Reached 5000 samples, ending early with 5000 samples.
+Epoch 809, Mean Reward: 962.43
+Epoch 810: Reached 5000 samples, ending early with 5000 samples.
+Epoch 810, Mean Reward: 1170.04
+Epoch 811: Reached 5000 samples, ending early with 5000 samples.
+Epoch 811, Mean Reward: 1078.34
+Epoch 812: Reached 5000 samples, ending early with 5000 samples.
+Epoch 812, Mean Reward: 1017.42
+Epoch 813: Reached 5000 samples, ending early with 5000 samples.
+Epoch 813, Mean Reward: 1136.70
+Epoch 814: Reached 5000 samples, ending early with 5000 samples.
+Epoch 814, Mean Reward: 1147.39
+Epoch 815: Reached 5000 samples, ending early with 5000 samples.
+Epoch 815, Mean Reward: 1096.85
+Epoch 816: Reached 5000 samples, ending early with 5000 samples.
+Epoch 816, Mean Reward: 1117.31
+Epoch 817: Reached 5000 samples, ending early with 5000 samples.
+Epoch 817, Mean Reward: 797.03
+Epoch 818: Reached 5000 samples, ending early with 5000 samples.
+Epoch 818, Mean Reward: 1091.57
+Epoch 819: Reached 5000 samples, ending early with 5000 samples.
+Eval at 4100000 samples: 1117.29
+Epoch 819, Mean Reward: 1130.28
+Epoch 820: Reached 5000 samples, ending early with 5000 samples.
+Epoch 820, Mean Reward: 1107.82
+Epoch 821: Reached 5000 samples, ending early with 5000 samples.
+Epoch 821, Mean Reward: 1078.21
+Epoch 822: Reached 5000 samples, ending early with 5000 samples.
+Epoch 822, Mean Reward: 1114.92
+Epoch 823: Reached 5000 samples, ending early with 5000 samples.
+Epoch 823, Mean Reward: 1119.10
+Epoch 824: Reached 5000 samples, ending early with 5000 samples.
+Epoch 824, Mean Reward: 1072.79
+Epoch 825: Reached 5000 samples, ending early with 5000 samples.
+Epoch 825, Mean Reward: 1027.65
+Epoch 826: Reached 5000 samples, ending early with 5000 samples.
+Epoch 826, Mean Reward: 1120.46
+Epoch 827: Reached 5000 samples, ending early with 5000 samples.
+Epoch 827, Mean Reward: 1147.83
+Epoch 828: Reached 5000 samples, ending early with 5000 samples.
+Epoch 828, Mean Reward: 1124.66
+Epoch 829: Reached 5000 samples, ending early with 5000 samples.
+Epoch 829, Mean Reward: 1087.75
+Epoch 830: Reached 5000 samples, ending early with 5000 samples.
+Epoch 830, Mean Reward: 1135.04
+Epoch 831: Reached 5000 samples, ending early with 5000 samples.
+Epoch 831, Mean Reward: 1093.46
+Epoch 832: Reached 5000 samples, ending early with 5000 samples.
+Epoch 832, Mean Reward: 1134.09
+Epoch 833: Reached 5000 samples, ending early with 5000 samples.
+Epoch 833, Mean Reward: 1139.85
+Epoch 834: Reached 5000 samples, ending early with 5000 samples.
+Epoch 834, Mean Reward: 1074.49
+Epoch 835: Reached 5000 samples, ending early with 5000 samples.
+Epoch 835, Mean Reward: 1099.83
+Epoch 836: Reached 5000 samples, ending early with 5000 samples.
+Epoch 836, Mean Reward: 1167.60
+Epoch 837: Reached 5000 samples, ending early with 5000 samples.
+Epoch 837, Mean Reward: 1114.19
+Epoch 838: Reached 5000 samples, ending early with 5000 samples.
+Epoch 838, Mean Reward: 1065.19
+Epoch 839: Reached 5000 samples, ending early with 5000 samples.
+Eval at 4200000 samples: 1049.18
+Epoch 839, Mean Reward: 1107.12
+Epoch 840: Reached 5000 samples, ending early with 5000 samples.
+Epoch 840, Mean Reward: 1050.65
+Epoch 841: Reached 5000 samples, ending early with 5000 samples.
+Epoch 841, Mean Reward: 1045.55
+Epoch 842: Reached 5000 samples, ending early with 5000 samples.
+Epoch 842, Mean Reward: 1126.45
+Epoch 843: Reached 5000 samples, ending early with 5000 samples.
+Epoch 843, Mean Reward: 1168.26
+Epoch 844: Reached 5000 samples, ending early with 5000 samples.
+Epoch 844, Mean Reward: 1107.98
+Epoch 845: Reached 5000 samples, ending early with 5000 samples.
+Epoch 845, Mean Reward: 1036.27
+Epoch 846: Reached 5000 samples, ending early with 5000 samples.
+Epoch 846, Mean Reward: 992.92
+Epoch 847: Reached 5000 samples, ending early with 5000 samples.
+Epoch 847, Mean Reward: 1069.43
+Epoch 848: Reached 5000 samples, ending early with 5000 samples.
+Epoch 848, Mean Reward: 1062.40
+Epoch 849: Reached 5000 samples, ending early with 5000 samples.
+Epoch 849, Mean Reward: 977.65
+Epoch 850: Reached 5000 samples, ending early with 5000 samples.
+Epoch 850, Mean Reward: 1080.00
+Epoch 851: Reached 5000 samples, ending early with 5000 samples.
+Epoch 851, Mean Reward: 1114.44
+Epoch 852: Reached 5000 samples, ending early with 5000 samples.
+Epoch 852, Mean Reward: 1060.28
+Epoch 853: Reached 5000 samples, ending early with 5000 samples.
+Epoch 853, Mean Reward: 1094.06
+Epoch 854: Reached 5000 samples, ending early with 5000 samples.
+Epoch 854, Mean Reward: 1102.80
+Epoch 855: Reached 5000 samples, ending early with 5000 samples.
+Epoch 855, Mean Reward: 1115.77
+Epoch 856: Reached 5000 samples, ending early with 5000 samples.
+Epoch 856, Mean Reward: 1096.21
+Epoch 857: Reached 5000 samples, ending early with 5000 samples.
+Epoch 857, Mean Reward: 1020.85
+Epoch 858: Reached 5000 samples, ending early with 5000 samples.
+Epoch 858, Mean Reward: 999.24
+Epoch 859: Reached 5000 samples, ending early with 5000 samples.
+Eval at 4300000 samples: 1140.03
+Epoch 859, Mean Reward: 1099.96
+Epoch 860: Reached 5000 samples, ending early with 5000 samples.
+Epoch 860, Mean Reward: 1102.63
+Epoch 861: Reached 5000 samples, ending early with 5000 samples.
+Epoch 861, Mean Reward: 1093.79
+Epoch 862: Reached 5000 samples, ending early with 5000 samples.
+Epoch 862, Mean Reward: 1081.70
+Epoch 863: Reached 5000 samples, ending early with 5000 samples.
+Epoch 863, Mean Reward: 1118.76
+Epoch 864: Reached 5000 samples, ending early with 5000 samples.
+Epoch 864, Mean Reward: 1113.16
+Epoch 865: Reached 5000 samples, ending early with 5000 samples.
+Epoch 865, Mean Reward: 1082.86
+Epoch 866: Reached 5000 samples, ending early with 5000 samples.
+Epoch 866, Mean Reward: 1075.01
+Epoch 867: Reached 5000 samples, ending early with 5000 samples.
+Epoch 867, Mean Reward: 1135.28
+Epoch 868: Reached 5000 samples, ending early with 5000 samples.
+Epoch 868, Mean Reward: 951.36
+Epoch 869: Reached 5000 samples, ending early with 5000 samples.
+Epoch 869, Mean Reward: 1048.08
+Epoch 870: Reached 5000 samples, ending early with 5000 samples.
+Epoch 870, Mean Reward: 1160.04
+Epoch 871: Reached 5000 samples, ending early with 5000 samples.
+Epoch 871, Mean Reward: 1067.47
+Epoch 872: Reached 5000 samples, ending early with 5000 samples.
+Epoch 872, Mean Reward: 1150.55
+Epoch 873: Reached 5000 samples, ending early with 5000 samples.
+Epoch 873, Mean Reward: 925.78
+Epoch 874: Reached 5000 samples, ending early with 5000 samples.
+Epoch 874, Mean Reward: 1117.83
+Epoch 875: Reached 5000 samples, ending early with 5000 samples.
+Epoch 875, Mean Reward: 1147.69
+Epoch 876: Reached 5000 samples, ending early with 5000 samples.
+Epoch 876, Mean Reward: 1104.31
+Epoch 877: Reached 5000 samples, ending early with 5000 samples.
+Epoch 877, Mean Reward: 1140.07
+Epoch 878: Reached 5000 samples, ending early with 5000 samples.
+Epoch 878, Mean Reward: 1123.78
+Epoch 879: Reached 5000 samples, ending early with 5000 samples.
+Eval at 4400000 samples: 1135.03
+Epoch 879, Mean Reward: 1138.76
+Epoch 880: Reached 5000 samples, ending early with 5000 samples.
+Epoch 880, Mean Reward: 1109.53
+Epoch 881: Reached 5000 samples, ending early with 5000 samples.
+Epoch 881, Mean Reward: 1110.37
+Epoch 882: Reached 5000 samples, ending early with 5000 samples.
+Epoch 882, Mean Reward: 1135.70
+Epoch 883: Reached 5000 samples, ending early with 5000 samples.
+Epoch 883, Mean Reward: 1043.67
+Epoch 884: Reached 5000 samples, ending early with 5000 samples.
+Epoch 884, Mean Reward: 1169.71
+Epoch 885: Reached 5000 samples, ending early with 5000 samples.
+Epoch 885, Mean Reward: 1175.86
+Epoch 886: Reached 5000 samples, ending early with 5000 samples.
+Epoch 886, Mean Reward: 1135.20
+Epoch 887: Reached 5000 samples, ending early with 5000 samples.
+Epoch 887, Mean Reward: 1094.24
+Epoch 888: Reached 5000 samples, ending early with 5000 samples.
+Epoch 888, Mean Reward: 1157.32
+Epoch 889: Reached 5000 samples, ending early with 5000 samples.
+Epoch 889, Mean Reward: 1082.33
+Epoch 890: Reached 5000 samples, ending early with 5000 samples.
+Epoch 890, Mean Reward: 1151.04
+Epoch 891: Reached 5000 samples, ending early with 5000 samples.
+Epoch 891, Mean Reward: 1087.06
+Epoch 892: Reached 5000 samples, ending early with 5000 samples.
+Epoch 892, Mean Reward: 1141.29
+Epoch 893: Reached 5000 samples, ending early with 5000 samples.
+Epoch 893, Mean Reward: 1180.54
+Epoch 894: Reached 5000 samples, ending early with 5000 samples.
+Epoch 894, Mean Reward: 1148.18
+Epoch 895: Reached 5000 samples, ending early with 5000 samples.
+Epoch 895, Mean Reward: 1142.66
+Epoch 896: Reached 5000 samples, ending early with 5000 samples.
+Epoch 896, Mean Reward: 1166.48
+Epoch 897: Reached 5000 samples, ending early with 5000 samples.
+Epoch 897, Mean Reward: 1195.60
+Epoch 898: Reached 5000 samples, ending early with 5000 samples.
+Epoch 898, Mean Reward: 1077.04
+Epoch 899: Reached 5000 samples, ending early with 5000 samples.
+Eval at 4500000 samples: 1039.94
+Epoch 899, Mean Reward: 1130.07
+Epoch 900: Reached 5000 samples, ending early with 5000 samples.
+Epoch 900, Mean Reward: 1128.82
+Epoch 901: Reached 5000 samples, ending early with 5000 samples.
+Epoch 901, Mean Reward: 1078.17
+Epoch 902: Reached 5000 samples, ending early with 5000 samples.
+Epoch 902, Mean Reward: 1110.67
+Epoch 903: Reached 5000 samples, ending early with 5000 samples.
+Epoch 903, Mean Reward: 1121.78
+Epoch 904: Reached 5000 samples, ending early with 5000 samples.
+Epoch 904, Mean Reward: 1070.03
+Epoch 905: Reached 5000 samples, ending early with 5000 samples.
+Epoch 905, Mean Reward: 1149.36
+Epoch 906: Reached 5000 samples, ending early with 5000 samples.
+Epoch 906, Mean Reward: 1113.81
+Epoch 907: Reached 5000 samples, ending early with 5000 samples.
+Epoch 907, Mean Reward: 1155.26
+Epoch 908: Reached 5000 samples, ending early with 5000 samples.
+Epoch 908, Mean Reward: 1159.20
+Epoch 909: Reached 5000 samples, ending early with 5000 samples.
+Epoch 909, Mean Reward: 950.48
+Epoch 910: Reached 5000 samples, ending early with 5000 samples.
+Epoch 910, Mean Reward: 1089.66
+Epoch 911: Reached 5000 samples, ending early with 5000 samples.
+Epoch 911, Mean Reward: 1191.43
+Epoch 912: Reached 5000 samples, ending early with 5000 samples.
+Epoch 912, Mean Reward: 1086.78
+Epoch 913: Reached 5000 samples, ending early with 5000 samples.
+Epoch 913, Mean Reward: 1085.21
+Epoch 914: Reached 5000 samples, ending early with 5000 samples.
+Epoch 914, Mean Reward: 1161.38
+Epoch 915: Reached 5000 samples, ending early with 5000 samples.
+Epoch 915, Mean Reward: 1167.61
+Epoch 916: Reached 5000 samples, ending early with 5000 samples.
+Epoch 916, Mean Reward: 1052.37
+Epoch 917: Reached 5000 samples, ending early with 5000 samples.
+Epoch 917, Mean Reward: 908.19
+Epoch 918: Reached 5000 samples, ending early with 5000 samples.
+Epoch 918, Mean Reward: 1111.86
+Epoch 919: Reached 5000 samples, ending early with 5000 samples.
+Eval at 4600000 samples: 1157.35
+Epoch 919, Mean Reward: 921.63
+Epoch 920: Reached 5000 samples, ending early with 5000 samples.
+Epoch 920, Mean Reward: 1159.39
+Epoch 921: Reached 5000 samples, ending early with 5000 samples.
+Epoch 921, Mean Reward: 1070.85
+Epoch 922: Reached 5000 samples, ending early with 5000 samples.
+Epoch 922, Mean Reward: 1175.99
+Epoch 923: Reached 5000 samples, ending early with 5000 samples.
+Epoch 923, Mean Reward: 1162.68
+Epoch 924: Reached 5000 samples, ending early with 5000 samples.
+Epoch 924, Mean Reward: 1179.62
+Epoch 925: Reached 5000 samples, ending early with 5000 samples.
+Epoch 925, Mean Reward: 1104.72
+Epoch 926: Reached 5000 samples, ending early with 5000 samples.
+Epoch 926, Mean Reward: 1144.85
+Epoch 927: Reached 5000 samples, ending early with 5000 samples.
+Epoch 927, Mean Reward: 1172.77
+Epoch 928: Reached 5000 samples, ending early with 5000 samples.
+Epoch 928, Mean Reward: 886.23
+Epoch 929: Reached 5000 samples, ending early with 5000 samples.
+Epoch 929, Mean Reward: 1146.20
+Epoch 930: Reached 5000 samples, ending early with 5000 samples.
+Epoch 930, Mean Reward: 1240.27
+Epoch 931: Reached 5000 samples, ending early with 5000 samples.
+Epoch 931, Mean Reward: 1150.67
+Epoch 932: Reached 5000 samples, ending early with 5000 samples.
+Epoch 932, Mean Reward: 969.07
+Epoch 933: Reached 5000 samples, ending early with 5000 samples.
+Epoch 933, Mean Reward: 1154.30
+Epoch 934: Reached 5000 samples, ending early with 5000 samples.
+Epoch 934, Mean Reward: 1094.31
+Epoch 935: Reached 5000 samples, ending early with 5000 samples.
+Epoch 935, Mean Reward: 1240.29
+Epoch 936: Reached 5000 samples, ending early with 5000 samples.
+Epoch 936, Mean Reward: 1215.55
+Epoch 937: Reached 5000 samples, ending early with 5000 samples.
+Epoch 937, Mean Reward: 1186.57
+Epoch 938: Reached 5000 samples, ending early with 5000 samples.
+Epoch 938, Mean Reward: 1145.16
+Epoch 939: Reached 5000 samples, ending early with 5000 samples.
+Eval at 4700000 samples: 1013.90
+Epoch 939, Mean Reward: 1138.45
+Epoch 940: Reached 5000 samples, ending early with 5000 samples.
+Epoch 940, Mean Reward: 1048.86
+Epoch 941: Reached 5000 samples, ending early with 5000 samples.
+Epoch 941, Mean Reward: 1179.41
+Epoch 942: Reached 5000 samples, ending early with 5000 samples.
+Epoch 942, Mean Reward: 1186.64
+Epoch 943: Reached 5000 samples, ending early with 5000 samples.
+Epoch 943, Mean Reward: 1184.40
+Epoch 944: Reached 5000 samples, ending early with 5000 samples.
+Epoch 944, Mean Reward: 1222.82
+Epoch 945: Reached 5000 samples, ending early with 5000 samples.
+Epoch 945, Mean Reward: 1244.68
+Epoch 946: Reached 5000 samples, ending early with 5000 samples.
+Epoch 946, Mean Reward: 1157.26
+Epoch 947: Reached 5000 samples, ending early with 5000 samples.
+Epoch 947, Mean Reward: 1193.99
+Epoch 948: Reached 5000 samples, ending early with 5000 samples.
+Epoch 948, Mean Reward: 1138.02
+Epoch 949: Reached 5000 samples, ending early with 5000 samples.
+Epoch 949, Mean Reward: 1229.87
+Epoch 950: Reached 5000 samples, ending early with 5000 samples.
+Epoch 950, Mean Reward: 1120.30
+Epoch 951: Reached 5000 samples, ending early with 5000 samples.
+Epoch 951, Mean Reward: 1149.40
+Epoch 952: Reached 5000 samples, ending early with 5000 samples.
+Epoch 952, Mean Reward: 1020.82
+Epoch 953: Reached 5000 samples, ending early with 5000 samples.
+Epoch 953, Mean Reward: 1148.83
+Epoch 954: Reached 5000 samples, ending early with 5000 samples.
+Epoch 954, Mean Reward: 1229.38
+Epoch 955: Reached 5000 samples, ending early with 5000 samples.
+Epoch 955, Mean Reward: 1243.83
+Epoch 956: Reached 5000 samples, ending early with 5000 samples.
+Epoch 956, Mean Reward: 1132.08
+Epoch 957: Reached 5000 samples, ending early with 5000 samples.
+Epoch 957, Mean Reward: 1189.16
+Epoch 958: Reached 5000 samples, ending early with 5000 samples.
+Epoch 958, Mean Reward: 1224.61
+Epoch 959: Reached 5000 samples, ending early with 5000 samples.
+Eval at 4800000 samples: 1214.91
+Epoch 959, Mean Reward: 1217.55
+Epoch 960: Reached 5000 samples, ending early with 5000 samples.
+Epoch 960, Mean Reward: 1106.24
+Epoch 961: Reached 5000 samples, ending early with 5000 samples.
+Epoch 961, Mean Reward: 1112.29
+Epoch 962: Reached 5000 samples, ending early with 5000 samples.
+Epoch 962, Mean Reward: 1220.46
+Epoch 963: Reached 5000 samples, ending early with 5000 samples.
+Epoch 963, Mean Reward: 1173.35
+Epoch 964: Reached 5000 samples, ending early with 5000 samples.
+Epoch 964, Mean Reward: 1156.80
+Epoch 965: Reached 5000 samples, ending early with 5000 samples.
+Epoch 965, Mean Reward: 1132.96
+Epoch 966: Reached 5000 samples, ending early with 5000 samples.
+Epoch 966, Mean Reward: 1129.11
+Epoch 967: Reached 5000 samples, ending early with 5000 samples.
+Epoch 967, Mean Reward: 1129.12
+Epoch 968: Reached 5000 samples, ending early with 5000 samples.
+Epoch 968, Mean Reward: 1152.59
+Epoch 969: Reached 5000 samples, ending early with 5000 samples.
+Epoch 969, Mean Reward: 1173.65
+Epoch 970: Reached 5000 samples, ending early with 5000 samples.
+Epoch 970, Mean Reward: 1165.24
+Epoch 971: Reached 5000 samples, ending early with 5000 samples.
+Epoch 971, Mean Reward: 1219.96
+Epoch 972: Reached 5000 samples, ending early with 5000 samples.
+Epoch 972, Mean Reward: 1177.74
+Epoch 973: Reached 5000 samples, ending early with 5000 samples.
+Epoch 973, Mean Reward: 1185.95
+Epoch 974: Reached 5000 samples, ending early with 5000 samples.
+Epoch 974, Mean Reward: 1183.29
+Epoch 975: Reached 5000 samples, ending early with 5000 samples.
+Epoch 975, Mean Reward: 1196.12
+Epoch 976: Reached 5000 samples, ending early with 5000 samples.
+Epoch 976, Mean Reward: 1258.06
+Epoch 977: Reached 5000 samples, ending early with 5000 samples.
+Epoch 977, Mean Reward: 1244.70
+Epoch 978: Reached 5000 samples, ending early with 5000 samples.
+Epoch 978, Mean Reward: 1182.78
+Epoch 979: Reached 5000 samples, ending early with 5000 samples.
+Eval at 4900000 samples: 1181.14
+Epoch 979, Mean Reward: 1169.59
+Epoch 980: Reached 5000 samples, ending early with 5000 samples.
+Epoch 980, Mean Reward: 1234.12
+Epoch 981: Reached 5000 samples, ending early with 5000 samples.
+Epoch 981, Mean Reward: 1202.22
+Epoch 982: Reached 5000 samples, ending early with 5000 samples.
+Epoch 982, Mean Reward: 1191.27
+Epoch 983: Reached 5000 samples, ending early with 5000 samples.
+Epoch 983, Mean Reward: 1252.22
+Epoch 984: Reached 5000 samples, ending early with 5000 samples.
+Epoch 984, Mean Reward: 1246.56
+Epoch 985: Reached 5000 samples, ending early with 5000 samples.
+Epoch 985, Mean Reward: 1199.94
+Epoch 986: Reached 5000 samples, ending early with 5000 samples.
+Epoch 986, Mean Reward: 1173.61
+Epoch 987: Reached 5000 samples, ending early with 5000 samples.
+Epoch 987, Mean Reward: 1226.45
+Epoch 988: Reached 5000 samples, ending early with 5000 samples.
+Epoch 988, Mean Reward: 1208.48
+Epoch 989: Reached 5000 samples, ending early with 5000 samples.
+Epoch 989, Mean Reward: 1257.10
+Epoch 990: Reached 5000 samples, ending early with 5000 samples.
+Epoch 990, Mean Reward: 1216.73
+Epoch 991: Reached 5000 samples, ending early with 5000 samples.
+Epoch 991, Mean Reward: 1244.07
+Epoch 992: Reached 5000 samples, ending early with 5000 samples.
+Epoch 992, Mean Reward: 1155.07
+Epoch 993: Reached 5000 samples, ending early with 5000 samples.
+Epoch 993, Mean Reward: 1212.33
+Epoch 994: Reached 5000 samples, ending early with 5000 samples.
+Epoch 994, Mean Reward: 1257.79
+Epoch 995: Reached 5000 samples, ending early with 5000 samples.
+Epoch 995, Mean Reward: 1265.54
+Epoch 996: Reached 5000 samples, ending early with 5000 samples.
+Epoch 996, Mean Reward: 1228.54
+Epoch 997: Reached 5000 samples, ending early with 5000 samples.
+Epoch 997, Mean Reward: 1187.10
+Epoch 998: Reached 5000 samples, ending early with 5000 samples.
+Epoch 998, Mean Reward: 1290.72
+Epoch 999: Reached 5000 samples, ending early with 5000 samples.
+Eval at 5000000 samples: 1202.94
+Epoch 999, Mean Reward: 1217.38
+Total samples collected: 5000000

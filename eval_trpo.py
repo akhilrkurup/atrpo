@@ -168,7 +168,7 @@ def evaluate_policy(env, eval_runs=10):
         total_rewards.append(cum_reward)
     return np.mean(total_rewards)
 
-def train(epochs=100, num_rollouts=5):
+def train(epochs=100, num_rollouts=100):
     eval_rewards = []
     eval_interval = 100000
     total_samples = 0  # total samples across all epochs
@@ -229,7 +229,7 @@ def train(epochs=100, num_rollouts=5):
     plt.savefig(plot_file)
 
 # Train the agent
-train(epochs=25)
+train(epochs=1000)
 
 env.close()
 
