@@ -246,23 +246,39 @@ def run_experiment(gamma, use_atrpo=False):
 
     return eval_steps, returns_1k, returns_10k, [tag] * len(eval_steps), [gamma] * len(eval_steps)
 
-def main_loop():
-    
-    all_data = []
+def save_individual_result(steps, r1k, r10k, labels, mus, suffix=""):
+    df_temp = pd.DataFrame(zip(steps, r1k, r10k, labels, mus),
+                           columns=['Steps', 'Return_1k', 'Return_10k', 'Label', 'Gamma'])
+    path = os.path.join(assets_dir(), f'trpo_atrpo_results_{suffix}.csv')
+    df_temp.to_csv(path, index=False)
+    print(f"[✔] Saved individual result to: {path}")
+    return df_temp
 
-    gammas = [0.90, 0.95, 0.99, 0.999, 0.9999]
+def main_loop():
+    all_data = []
+    gammas = [0.95, 0.99]
 
     for g in gammas:
+        print(f"[→] Running TRPO experiment with gamma = {g}")
         steps, r1k, r10k, labels, mus = run_experiment(gamma=g, use_atrpo=False)
-        all_data.extend(zip(steps, r1k, r10k, labels, mus))
+        df_temp = save_individual_result(steps, r1k, r10k, labels, mus, suffix=f"trpo_gamma_{g}")
+        all_data.extend(df_temp.values.tolist())
 
-    steps, r1k, r10k, labels, mus = run_experiment(gamma=0.99, use_atrpo=True)  # ATRPO run
-    all_data.extend(zip(steps, r1k, r10k, labels, mus))
+    print(f"[→] Running ATRPO experiment with gamma = 0.99")
+    steps, r1k, r10k, labels, mus = run_experiment(gamma=0.99, use_atrpo=True)
+    df_temp = save_individual_result(steps, r1k, r10k, labels, mus, suffix="atrpo_gamma_0.99")
+    all_data.extend(df_temp.values.tolist())
 
+    # Save final combined CSV
     df = pd.DataFrame(all_data, columns=['Steps', 'Return_1k', 'Return_10k', 'Label', 'Gamma'])
-    df.to_csv(os.path.join(assets_dir(), f'trpo_atrpo_results_{args.env_name}.csv'), index=False)
+    final_csv = os.path.join(assets_dir(), f'trpo_atrpo_results_{args.env_name}.csv')
+    df.to_csv(final_csv, index=False)
+    print(f"[✔] Saved final combined results to: {final_csv}")
 
-    # Plot for 1k
+    # Plotting
+    os.makedirs(os.path.join(assets_dir(), 'plots'), exist_ok=True)
+
+    # 1k Steps Plot
     plt.figure(figsize=(10, 6))
     for label in df['Label'].unique():
         df_ = df[df['Label'] == label]
@@ -272,10 +288,12 @@ def main_loop():
     plt.ylabel('Average Return')
     plt.legend()
     plt.grid(True)
-    plt.savefig(os.path.join(assets_dir(), f'plots/{args.env_name}_eval_1k_all.png'))
-    plt.show()
+    plot1k_path = os.path.join(assets_dir(), f'plots/{args.env_name}_eval_1k_all.png')
+    plt.savefig(plot1k_path)
+    print(f"Saved 1k evaluation plot to: {plot1k_path}")
+    plt.close()
 
-    # Plot for 10k
+    # 10k Steps Plot
     plt.figure(figsize=(10, 6))
     for label in df['Label'].unique():
         df_ = df[df['Label'] == label]
@@ -285,8 +303,10 @@ def main_loop():
     plt.ylabel('Average Return')
     plt.legend()
     plt.grid(True)
-    plt.savefig(os.path.join(assets_dir(), f'plots/{args.env_name}_eval_10k_all.png'))
-    plt.show()
+    plot10k_path = os.path.join(assets_dir(), f'plots/{args.env_name}_eval_10k_all.png')
+    plt.savefig(plot10k_path)
+    print(f"Saved 10k evaluation plot to: {plot10k_path}")
+    plt.close()
 
 
 
