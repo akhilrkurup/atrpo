@@ -3,7 +3,7 @@ import torch
 
 
 class Value(nn.Module):
-    def __init__(self, state_dim, hidden_size=(64, 64), activation='tanh'):
+    def __init__(self, state_dim, hidden_size=(64, ), activation='tanh'):
         super().__init__()
         if activation == 'tanh':
             self.activation = torch.tanh

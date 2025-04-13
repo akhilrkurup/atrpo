@@ -50,8 +50,8 @@ def collect_samples(pid, queue, env, policy, custom_reward,
                     action = policy.select_action(state_var)[0].numpy()
             action = int(action) if policy.is_disc_action else action.astype(np.float64)
             next_state, reward, terminated, truncated, _ = env.step(action)
-            if(terminated):
-                print(t)
+            # if(terminated):
+            #     print(t)
             if terminated:
                 # Infinite horizon trick: add reset cost and restart
                 reward -= RESET_COST
@@ -166,4 +166,6 @@ class Agent:
         log['action_mean'] = np.mean(np.vstack(batch.action), axis=0)
         log['action_min'] = np.min(np.vstack(batch.action), axis=0)
         log['action_max'] = np.max(np.vstack(batch.action), axis=0)
+        #print("DEBUG: Inside Agent.collect_samples, log =", log)
+
         return batch, log
