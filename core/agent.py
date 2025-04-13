@@ -50,8 +50,7 @@ def collect_samples(pid, queue, env, policy, custom_reward,
                     action = policy.select_action(state_var)[0].numpy()
             action = int(action) if policy.is_disc_action else action.astype(np.float64)
             next_state, reward, terminated, truncated, _ = env.step(action)
-            if(terminated):
-                print(t)
+
             if terminated:
                 # Infinite horizon trick: add reset cost and restart
                 reward -= RESET_COST

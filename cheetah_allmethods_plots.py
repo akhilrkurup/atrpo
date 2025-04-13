@@ -20,7 +20,7 @@ from core.common import estimate_advantages as trpo_estimate_adv
 from core.common_new import estimate_advantages as atrpo_estimate_adv
 
 parser = argparse.ArgumentParser(description='PyTorch TRPO example')
-parser.add_argument('--env-name', default="HalfCheetah-v5", metavar='G',
+parser.add_argument('--env-name', default="Humanoid-v5", metavar='G',
                     help='name of the environment to run')
 parser.add_argument('--model-path', metavar='G',
                     help='path of pre-trained model')
@@ -42,15 +42,15 @@ parser.add_argument('--num-threads', type=int, default=4, metavar='N',
                     help='number of threads for agent (default: 4)')
 parser.add_argument('--seed', type=int, default=1, metavar='N',
                     help='random seed (default: 1)')
-parser.add_argument('--min-batch-size', type=int, default=5000, metavar='N',
+parser.add_argument('--min-batch-size', type=int, default=2048, metavar='N',
                     help='minimal batch size per TRPO update (default: 2048)')
-parser.add_argument('--eval-batch-size', type=int, default=5000, metavar='N',
+parser.add_argument('--eval-batch-size', type=int, default=2048, metavar='N',
                     help='minimal batch size for evaluation (default: 2048)')
 parser.add_argument('--max-iter-num', type=int, default=2000, metavar='N',
                     help='maximal number of main iterations (default: 500)')
 parser.add_argument('--log-interval', type=int, default=1, metavar='N',
                     help='interval between training status logs (default: 10)')
-parser.add_argument('--save-model-interval', type=int, default=500, metavar='N',
+parser.add_argument('--save-model-interval', type=int, default=40, metavar='N',
                     help="interval between saving model (default: 0, means don't save)")
 parser.add_argument('--gpu-index', type=int, default=0, metavar='N')
 args = parser.parse_args()
@@ -193,12 +193,13 @@ def run_experiment(gamma, use_atrpo=False):
                 
 
                 next_state, reward, done, truncated, _ = env.step(action)
+                if done:
+                    state, _=env.reset()
+                    break
                 next_state = agent.running_state(next_state)
                 total_reward += reward
                 state = next_state
-                # if done or truncated:
-                #     print(next_state)
-                #     break
+
             total_rewards.append(total_reward)
         return np.mean(total_rewards)    
 
